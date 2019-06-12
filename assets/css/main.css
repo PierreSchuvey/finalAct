@@ -1,158 +1,171 @@
 @font-face {
-  font-family: "LemonMilk";
-  src: url('../fonts/LemonMilk.otf');
+ font-family: "Lemon";
+ src: url("../font/LemonMilk.otf");
 }
-.navbar-light{
-  height: 100px;
-  background-color: #833089;
-}
-.navbar-brand{
-  width: 200px;
-  margin-left: 3%;
-  margin-right: 5%;
-}
-.navbar-brand img {
-  width: 100%;
-}
-
-.navbar-light .navbar-nav .nav-link{
-  color: white;
-  font-size: 20px;
-  font-family: 'LemonMilk';
-  margin-right: 20px;
-}
-
-.navbar-light .navbar-nav .active > .nav-link{
-  color: orange;
-}
-
-.link{
-  color: white;
-  font-size: 20px;
-  font-family: 'LemonMilk';
-  margin-right: 20px;
-}
-
 body{
-  background-color: #b5a6b6;
-}
-
-
-#breadCrumb{
-  height: 50px;
-  background-color: #f59c23;
-  vertical-align: middle;
-}
-
-#breadCrumb p {
-  color: white;
-  font-size: 20px;
-  font-family: 'LemonMilk';
-  margin-left: 8%;
-  line-height: 50px;
+  overflow: hidden;
 }
 h1{
-  margin-top: 50px;
-    text-align: center;
-    color: white;
-    font-size: 55px;
-    font-family: 'LemonMilk';
-    line-height: 60px;
+font-family: "Lemon";
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-.atelierLine{
+h2{
+font-family: "Lemon";
+  color:white;
+  text-align: center;
   margin-top: 100px;
-  margin-left: 5px;
+  margin-bottom: 20px;
 }
-.atelierCard{
-  width:100%;
-  min-height: 300px;
-  background-color: white;
-  overflow: hidden;
-  background-image: url(../images/test.png);
+li{color : white;}
+.lorem{
+  color: white;
+  text-align: justify;
+}
+.container-fluid {
+  width : 100vw;
+  height: 100vh;
+  padding: 0;
+}
+.firtsPart{
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.secondPart{
+  height: 100vh;
+  background-color: rgba(127, 48, 137, 0.8);
+  padding-left: 50px;
+  padding-right: 50px;
+  overflow-y: scroll;
+}
+#logo{
+  display: block;
+  margin: auto;
+    margin-top: 80px;
+}
+#bands{
+  background-color: rgba(245,156,35,0.5);
+  margin-top: 120px;
+  box-shadow: 0px 0px 50px rgba(20,20,20,0.8);
+}
+.titleNight{
+  font-size:50px;
+  line-height: 80px;
+  margin-top:40px;
+  font-family: "Lemon";
+  color:#7F3089;
+  text-align: center;
+}
+hr{
+  width:75%;
+  border-color: #6E6C6D;
+  border-width: 5px;
+}
+.littleGray{
+  font-size: 30px;
+  color: #6E6C6D;
+}
+.orangeNumber{
+  font-size: 70px;
+  color: rgba(245,156,35,1);
+}
+#inboxText{
+  padding-right: 0;
+  margin-bottom: 20px;
+}
+#inboxText p{
+  text-align: center;
+  margin: 0;
+  margin-top: 20px;
+}
+#inboxText a{
+  text-align: center;
+  display: block;
+  font-size: 50px;
+  text-decoration: none;
+  color: #6D6C6C;
+}
+#inboxText a:hover{
+  color: white;
+  background-image: linear-gradient(to left,
+    #7E3089,
+    #7E3089 50%,
+    transparent 50%,
+    transparent);
+    background-position: -100% 0;
+    background-size: 200% 100%;
+    transition: all 0.8s ease-out;
+}
+#inboxText a:focus{
+  color: white;
+  background-image: linear-gradient(to left,
+    #7E3089,
+    #7E3089 50%,
+    transparent 50%,
+    transparent);
+    background-position: -100% 0;
+    background-size: 200% 100%;
+    transition: all 0.8s ease-out;
+}
+.firstSection{
+  min-height:100vh;
+}
+.firstSection p{
+  font-family: 'Raleway', sans-serif;
+}
+.secondSection{
+  min-height:100vh;
+}
+.secondSection p{
+  color : white;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+.affiche{
+  width: 100%;
+}
+video#bgvid {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right;
-  margin-left: -10px;
 }
-.atelierCard p{
-  margin-bottom: 0;
+.linePartner{
+  margin: 50px;
 }
-#parallelogramPurR{
-    width: 60%;
-    min-height: 300px;
-    float: left;
-    margin: 0 0 0 -85px;
-    -webkit-transform: skew(30deg);
-    -moz-transform: skew(30deg);
-    -o-transform: skew(30deg);
-    background-color: white;
-    border-right:solid 20px purple;
-}
-#parallelogramOrL{
-    width: 60%;
-    min-height: 300px;
-    float: right;
-    margin: 0 -85px 0 0 ;
-    -webkit-transform: skew(-30deg);
-    -moz-transform: skew(-30deg);
-    -o-transform: skew(-30deg);
-    background-color: white;
-    border-left:solid 20px orange;
-}
-.atelier{
-  color: #202020;
-font-size: 35px;
-font-family: 'LemonMilk';
-text-align: center;
-margin-left: -40px;
-}
-.atelierR{
-  color: #202020;
-font-size: 35px;
-font-family: 'LemonMilk';
-text-align: center;
-margin-left: -160px;
-}
-.textAtelier{
--webkit-transform: skew(-30deg);
--moz-transform: skew(-30deg);
--o-transform: skew(-30deg);
-margin-top:30px;
-margin-left: 100px;
-margin-right: -150px;
-}
-.linkSubscribe{
+.credits{
   text-align: center;
-  -webkit-transform: skew(-30deg);
-  -moz-transform: skew(-30deg);
-  -o-transform: skew(-30deg);
-  font-size:30px;
-  margin-top: 30px;
 }
-.textAtelierR{
--webkit-transform: skew(30deg);
--moz-transform: skew(30deg);
--o-transform: skew(30deg);
-margin-top:30px;
-margin-left: 20px;
+.imgPartner{
+  width: 75%;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
 }
-.linkSubscribeR{
-  text-align: center;
-  -webkit-transform: skew(30deg);
-  -moz-transform: skew(30deg);
-  -o-transform: skew(30deg);
-  font-size:30px;
-  margin-top: 30px;
+#creditsBox{
+  margin-top: 50px;
 }
-.linkSubscribe a{
+.adress{
+  background-color: rgba(20,20,20,0.5);
+  width: 100%;
+}
+.adress p{
+  color : white;
+  font-size: 30px;
+}
+#creditsBox p{
+  color:white;
+}
+#creditsBox a{
   position: relative;
-    color:purple;
+    color:orange;
   text-decoration: none;
 }
-.linkSubscribe a:hover{
-  color:purple;
+#creditsBox a:hover{
+  color:orange;
 }
-.linkSubscribe a:before{
+#creditsBox a:before{
   content: "";
   position: absolute;
   width: 100%;
@@ -161,68 +174,49 @@ margin-left: 20px;
   left: 0;
 
 }
-.linkSubscribe a:hover:before {
+#creditsBox a:hover:before {
   visibility: visible;
 
   background-image: linear-gradient(to left,
-    purple 50%,
-    purple ,
+    orange 50%,
+    orange ,
     transparent 50%,
     transparent);
     background-position: -100% 0;
     background-size: 200% 100%;
     transition: all 0.8s ease-out;
 }
-.linkSubscribe a:focus:before {
+#creditsBox a:focus:before {
   visibility: visible;
 
   background-image: linear-gradient(to left,
-    purple 50%,
-    purple ,
+    orange 50%,
+    orange ,
     transparent 50%,
     transparent);
     background-position: -100% 0;
     background-size: 200% 100%;
     transition: all 0.8s ease-out;
 }
-.linkSubscribeR a{
-  position: relative;
-    color:purple;
-  text-decoration: none;
-}
-.linkSubscribeR a:hover{
-  color:purple;
-}
-.linkSubscribeR a:before{
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
+@media (max-height:790px)  {
+    #bands{
+      margin-top: 10px;
+    }
+    #logo{
+      margin-top: 10px;
+    }
+    body{
+      overflow-y: visible;
+        overflow-x: hidden;
+    }
+  }
 
 }
-.linkSubscribeR a:hover:before {
-  visibility: visible;
 
-  background-image: linear-gradient(to left,
-    purple 50%,
-    purple ,
-    transparent 50%,
-    transparent);
-    background-position: -100% 0;
-    background-size: 200% 100%;
-    transition: all 0.8s ease-out;
 }
-.linkSubscribeR a:focus:before {
-  visibility: visible;
-
-  background-image: linear-gradient(to left,
-    purple 50%,
-    purple ,
-    transparent 50%,
-    transparent);
-    background-position: -100% 0;
-    background-size: 200% 100%;
-    transition: all 0.8s ease-out;
+@media screen and (max-width: 767px) {
+  body{
+    overflow-y: visible;
+      overflow-x: hidden;
+  }
 }
