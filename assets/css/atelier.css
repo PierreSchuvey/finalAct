@@ -1,0 +1,228 @@
+@font-face {
+  font-family: "LemonMilk";
+  src: url('../fonts/LemonMilk.otf');
+}
+.navbar-light{
+  height: 100px;
+  background-color: #833089;
+}
+.navbar-brand{
+  width: 200px;
+  margin-left: 3%;
+  margin-right: 5%;
+}
+.navbar-brand img {
+  width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: white;
+  font-size: 20px;
+  font-family: 'LemonMilk';
+  margin-right: 20px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link{
+  color: orange;
+}
+
+.link{
+  color: white;
+  font-size: 20px;
+  font-family: 'LemonMilk';
+  margin-right: 20px;
+}
+
+body{
+  background-color: #b5a6b6;
+}
+
+
+#breadCrumb{
+  height: 50px;
+  background-color: #f59c23;
+  vertical-align: middle;
+}
+
+#breadCrumb p {
+  color: white;
+  font-size: 20px;
+  font-family: 'LemonMilk';
+  margin-left: 8%;
+  line-height: 50px;
+}
+h1{
+  margin-top: 50px;
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    font-family: 'LemonMilk';
+    line-height: 60px;
+}
+.atelierLine{
+  margin-top: 100px;
+  margin-left: 5px;
+}
+.atelierCard{
+  width:100%;
+  min-height: 300px;
+  background-color: white;
+  overflow: hidden;
+  background-image: url(../images/test.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-left: -10px;
+}
+.atelierCard p{
+  margin-bottom: 0;
+}
+#parallelogramPurR{
+    width: 60%;
+    min-height: 300px;
+    float: left;
+    margin: 0 0 0 -85px;
+    -webkit-transform: skew(30deg);
+    -moz-transform: skew(30deg);
+    -o-transform: skew(30deg);
+    background-color: white;
+    border-right:solid 20px purple;
+}
+#parallelogramOrL{
+    width: 60%;
+    min-height: 300px;
+    float: right;
+    margin: 0 -85px 0 0 ;
+    -webkit-transform: skew(-30deg);
+    -moz-transform: skew(-30deg);
+    -o-transform: skew(-30deg);
+    background-color: white;
+    border-left:solid 20px orange;
+}
+.atelier{
+  color: #202020;
+font-size: 35px;
+font-family: 'LemonMilk';
+text-align: center;
+margin-left: -40px;
+}
+.atelierR{
+  color: #202020;
+font-size: 35px;
+font-family: 'LemonMilk';
+text-align: center;
+margin-left: -160px;
+}
+.textAtelier{
+-webkit-transform: skew(-30deg);
+-moz-transform: skew(-30deg);
+-o-transform: skew(-30deg);
+margin-top:30px;
+margin-left: 100px;
+margin-right: -150px;
+}
+.linkSubscribe{
+  text-align: center;
+  -webkit-transform: skew(-30deg);
+  -moz-transform: skew(-30deg);
+  -o-transform: skew(-30deg);
+  font-size:30px;
+  margin-top: 30px;
+}
+.textAtelierR{
+-webkit-transform: skew(30deg);
+-moz-transform: skew(30deg);
+-o-transform: skew(30deg);
+margin-top:30px;
+margin-left: 20px;
+}
+.linkSubscribeR{
+  text-align: center;
+  -webkit-transform: skew(30deg);
+  -moz-transform: skew(30deg);
+  -o-transform: skew(30deg);
+  font-size:30px;
+  margin-top: 30px;
+}
+.linkSubscribe a{
+  position: relative;
+    color:purple;
+  text-decoration: none;
+}
+.linkSubscribe a:hover{
+  color:purple;
+}
+.linkSubscribe a:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+
+}
+.linkSubscribe a:hover:before {
+  visibility: visible;
+
+  background-image: linear-gradient(to left,
+    purple 50%,
+    purple ,
+    transparent 50%,
+    transparent);
+    background-position: -100% 0;
+    background-size: 200% 100%;
+    transition: all 0.8s ease-out;
+}
+.linkSubscribe a:focus:before {
+  visibility: visible;
+
+  background-image: linear-gradient(to left,
+    purple 50%,
+    purple ,
+    transparent 50%,
+    transparent);
+    background-position: -100% 0;
+    background-size: 200% 100%;
+    transition: all 0.8s ease-out;
+}
+.linkSubscribeR a{
+  position: relative;
+    color:purple;
+  text-decoration: none;
+}
+.linkSubscribeR a:hover{
+  color:purple;
+}
+.linkSubscribeR a:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+
+}
+.linkSubscribeR a:hover:before {
+  visibility: visible;
+
+  background-image: linear-gradient(to left,
+    purple 50%,
+    purple ,
+    transparent 50%,
+    transparent);
+    background-position: -100% 0;
+    background-size: 200% 100%;
+    transition: all 0.8s ease-out;
+}
+.linkSubscribeR a:focus:before {
+  visibility: visible;
+
+  background-image: linear-gradient(to left,
+    purple 50%,
+    purple ,
+    transparent 50%,
+    transparent);
+    background-position: -100% 0;
+    background-size: 200% 100%;
+    transition: all 0.8s ease-out;
+}
