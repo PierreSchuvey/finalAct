@@ -49,7 +49,7 @@ body{
   color: white;
   font-size: 20px;
   font-family: 'LemonMilk';
-  margin-left: 8%;
+  margin-left: 10%;
   line-height: 50px;
 }
 
@@ -64,7 +64,7 @@ h1{
 
 #backOnBack{
   position: relative;
-  height: 150px;
+  height: 10vw;
   background-color: #f59c23;
   margin-top: 200px;
 }
@@ -74,7 +74,9 @@ h1{
 
 .img-circle {
     border-radius: 50%;
-    border: 2px black solid;
+    border: 8px black solid;
+    overflow: hidden;
+    cursor: pointer;
 }
 .img-circle {
     border-radius: 0;
@@ -84,7 +86,6 @@ h1{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-
     height: 0;
     padding-bottom: 100%;
     position: relative;
@@ -97,4 +98,56 @@ h1{
     display: block;
     height: auto;
     max-width: 100%;
+}
+
+#line2, #line3{
+  margin-top: 150px;
+}
+
+.caption{
+  width: 100%;
+  height: 10vw;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.caption p{
+  text-decoration: underline;
+  margin-top: 20px;
+}
+
+.firstPlace{
+  margin-left: 12.5vw;
+}
+
+@media screen and (max-width: 770px) {
+  .firstPlace{
+    margin-left: 0vw;
+  }
+
+  .caption{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding-top: 20px;
+  }
+  #line1,#line2, #line3{
+    height: 100vh;
+  }
+
+  #backOnBack{
+    position: relative;
+    height: 0vw;
+    background-color: transparent;
+    margin-top: 200px;
+  }
+  #theme1{
+    margin-bottom: 100px;
+  }
 }
