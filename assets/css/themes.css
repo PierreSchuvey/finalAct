@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "LemonMilk";
+  src: url('../fonts/LemonMilk.otf');
+}
+
+.navbar-light{
+  height: 100px;
+  background-color: #833089;
+}
+.navbar-brand{
+  width: 200px;
+  margin-left: 3%;
+  margin-right: 5%;
+}
+.navbar-brand img {
+  width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: white;
+  font-size: 20px;
+  font-family: 'LemonMilk';
+  margin-right: 20px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link{
+  color: orange;
+}
+
+.link{
+  color: white;
+  font-size: 20px;
+  font-family: 'LemonMilk';
+  margin-right: 20px;
+}
+
+body{
+  background-color: #b5a6b6;
+}
+
+
+#breadCrumb{
+  height: 50px;
+  background-color: #f59c23;
+  vertical-align: middle;
+}
+
+#breadCrumb p {
+  color: white;
+  font-size: 20px;
+  font-family: 'LemonMilk';
+  margin-left: 8%;
+  line-height: 50px;
+}
+
+h1{
+  margin-top: 50px;
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    font-family: 'LemonMilk';
+    line-height: 60px;
+}
+
+#backOnBack{
+  position: relative;
+  height: 150px;
+  background-color: #f59c23;
+  margin-top: 200px;
+}
+#theme1{
+  margin-top: -100px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    border: 2px black solid;
+}
+.img-circle {
+    border-radius: 0;
+}
+
+.ratio {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
