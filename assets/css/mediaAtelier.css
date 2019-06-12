@@ -1,0 +1,84 @@
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+  #parallelogramPurR{
+      width: 85%;
+      min-height: 300px;
+      float: left;
+      margin: 0 0 0 -85px;
+      -webkit-transform: skew(30deg);
+      -moz-transform: skew(30deg);
+      -o-transform: skew(30deg);
+      background-color: white;
+  }
+  #parallelogramOrL{
+      width: 85%;
+      min-height: 300px;
+      float: right;
+      margin: 0 -85px 0 0;
+      -webkit-transform: skew(-30deg);
+      -moz-transform: skew(-30deg);
+      -o-transform: skew(-30deg);
+      background-color: white;
+  }
+}
+@media screen and (max-width: 991px) {
+  #parallelogramPurR{
+      width: 100%;
+      min-height: 300px;
+      float: left;
+      margin: 0 0 0 0;
+      background-color: rgba(255,255,255,0.5);
+      -webkit-transform: skew(0deg);
+      -moz-transform: skew(0deg);
+      -o-transform: skew(0deg);
+      border-right: blue;
+  }
+  #parallelogramOrL{
+      width: 100%;
+      min-height: 300px;
+      float: left;
+      margin: 0 0 0 0;
+      background-color: rgba(255,255,255,0.5);
+      -webkit-transform: skew(0deg);
+      -moz-transform: skew(0deg);
+      -o-transform: skew(0deg);
+      border-left: blue;
+  }
+  .textAtelier{
+  -webkit-transform: skew(0deg);
+  -moz-transform: skew(0deg);
+  -o-transform: skew(0deg);
+  margin-top:30px;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  }
+  .atelier{
+    margin: 0;
+  }
+  .linkSubscribe{
+    text-align: center;
+    -webkit-transform: skew(0deg);
+    -moz-transform: skew(0deg);
+    -o-transform: skew(0deg);
+    font-size:30px;
+    margin-top: 50px;
+  }
+  .textAtelierR{
+  -webkit-transform: skew(0deg);
+  -moz-transform: skew(0deg);
+  -o-transform: skew(0deg);
+  margin-top:30px;
+  margin-left: 80px;
+  }
+  .linkSubscribeR{
+    text-align: center;
+    -webkit-transform: skew(0deg);
+    -moz-transform: skew(0deg);
+    -o-transform: skew(0deg);
+    font-size:30px;
+    margin-top: 50px;
+  }
+  .atelierCard{
+    margin-top: 60px;
+  }
+}
