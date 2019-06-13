@@ -61,3 +61,13 @@ h1{
     font-family: 'LemonMilk';
     line-height: 60px;
 }
+
+.text{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 50px;
+}
+
+.contactLink{
+  color: #833089;
+}

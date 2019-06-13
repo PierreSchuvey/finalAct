@@ -12,6 +12,7 @@
   <!-- Link CSS -->
   <link href="assets/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
   <link href="assets/css/contact.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
 <body>
@@ -57,7 +58,13 @@
           </h1>
         </div>
       </div>
-
+      <div class="row">
+        <div class="col-12 text">
+          <p>
+            Pour toutes questions, merci de contacter Eloise Couteau au : <span class="contactLink">03 44 09 60 51</span> ou à <span class="contactLink">eloise.couteau@paysnoyonnais.fr.</span>
+          </p>
+        </div>
+      </div>
     </div>
   </main>
   <script src="assets/lib/bootstrap/js/bootstrap.js" type="text/javascript"></script>
