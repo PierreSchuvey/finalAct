@@ -8,7 +8,7 @@
   <meta name="author" content="Kaiartsu" />
   <meta name="reply-to" content="contact@kaiartsu.fr">
   <meta name="keywords" content="" />
-  <title>Kaiartsu | L'agence web symbiotique | Création de sites web | Identité visuelle | Hauts-de-France, Noyon</title>
+  <title>Thématiques des Assises du Noyonnais | Hauts-de-France</title>
   <!-- Link CSS -->
   <link href="assets/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
   <link href="assets/css/themes.css" rel="stylesheet" />
@@ -44,9 +44,9 @@
   <main id="">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-4" id="breadCrumb">
+        <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5 col-xl-5" id="breadCrumb">
           <p>
-            Accueil \ Thématiques
+            Accueil \ Thémes
           </p>
         </div>
       </div>
@@ -61,9 +61,9 @@
         <div class="col-12" id="backOnBack">
           <div class="row">
             <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3 offset-1 firstPlace" id="theme1">
-              <div  class="ratio img-responsive img-circle" style="background-image: url(http://trovacamporella.com/img/trovacamporella-fiat500.png);" data-toggle="modal" data-target="#exampleModal">
+              <div  class="ratio img-responsive img-circle" style="background-image: url('assets/images/csne.jpg');" data-toggle="modal" data-target="#exampleModal">
                 <div class="caption">
-                  <h2>Thématique #1</h2>
+                  <h2>CSNE</h2>
                   <p>
                     En savoir plus
                   </p>
@@ -74,7 +74,7 @@
                 <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Thématique #1</h5>
+                      <h5 class="modal-title" id="exampleModalLabel">CSNE : Optimisation des retombées du projet (activité économique et emploi)</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -87,9 +87,9 @@
               </div>
             </div>
             <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3" id="theme1">
-              <div  class="ratio img-responsive img-circle" style="background-image: url(http://trovacamporella.com/img/trovacamporella-fiat500.png);" data-toggle="modal" data-target="#Modal2">
+              <div  class="ratio img-responsive img-circle" style="background-image: url('assets/images/test.png');" data-toggle="modal" data-target="#Modal2">
                 <div class="caption">
-                  <h2>Thématique #1</h2>
+                  <h2>Le numérique</h2>
                   <p>
                     En savoir plus
                   </p>
@@ -100,7 +100,7 @@
                 <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Thématique #2</h5>
+                      <h5 class="modal-title" id="exampleModalLabel">Le numérique : vecteur de croissance de l’économie territoriale</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -113,9 +113,9 @@
               </div>
             </div>
             <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3" id="theme1">
-              <div  class="ratio img-responsive img-circle" style="background-image: url(http://trovacamporella.com/img/trovacamporella-fiat500.png);" data-toggle="modal" data-target="#Modal3">
+              <div  class="ratio img-responsive img-circle" style="background-image: url('assets/images/eco.jpg');" data-toggle="modal" data-target="#Modal3">
                 <div class="caption">
-                  <h2>Thématique #1</h2>
+                  <h2>L’économie de proximité</h2>
                   <p>
                     En savoir plus
                   </p>
@@ -126,7 +126,7 @@
                 <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Thématique #3</h5>
+                      <h5 class="modal-title" id="exampleModalLabel">L’économie de proximité : commerce et services</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -151,7 +151,7 @@
             <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3 firstPlace" id="theme1">
               <div  class="ratio img-responsive img-circle" style="background-image: url(http://trovacamporella.com/img/trovacamporella-fiat500.png);" data-toggle="modal" data-target="#Modal4">
                 <div class="caption">
-                  <h2>Thématique #1</h2>
+                  <h2>L’offre d’accueil des entreprises</h2>
                   <p>
                     En savoir plus
                   </p>
@@ -162,7 +162,7 @@
                 <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Thématique #4</h5>
+                      <h5 class="modal-title" id="exampleModalLabel">L’offre d’accueil des entreprises</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -177,7 +177,7 @@
             <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3" id="theme1">
               <div  class="ratio img-responsive img-circle" style="background-image: url(http://trovacamporella.com/img/trovacamporella-fiat500.png);" data-toggle="modal" data-target="#Modal5">
                 <div class="caption">
-                  <h2>Thématique #1</h2>
+                  <h2>L’emploi et la formation</h2>
                   <p>
                     En savoir plus
                   </p>
@@ -188,7 +188,7 @@
                 <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Thématique #5</h5>
+                      <h5 class="modal-title" id="exampleModalLabel">L’emploi et la formation</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -203,7 +203,7 @@
             <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3" id="theme1">
               <div  class="ratio img-responsive img-circle" style="background-image: url(http://trovacamporella.com/img/trovacamporella-fiat500.png);" data-toggle="modal" data-target="#Modal6">
                 <div class="caption">
-                  <h2>Thématique #1</h2>
+                  <h2>Spécialisation et filiarisation<br /> de l’économie noyonnaise</h2>
                   <p>
                     En savoir plus
                   </p>
@@ -214,7 +214,7 @@
                 <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Thématique #6</h5>
+                      <h5 class="modal-title" id="exampleModalLabel">Spécialisation et filiarisation de l’économie noyonnaise</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -234,9 +234,9 @@
         <div class="col-12" id="backOnBack">
           <div class="row">
             <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3 offset-lg-3" id="theme1">
-              <div  class="ratio img-responsive img-circle" style="background-image: url(http://trovacamporella.com/img/trovacamporella-fiat500.png);" data-toggle="modal" data-target="#Modal7">
+              <div  class="ratio img-responsive img-circle" style="background-image: url('assets/images/bus.jpg');" data-toggle="modal" data-target="#Modal7">
                 <div class="caption">
-                  <h2>Thématique #1</h2>
+                  <h2>La mobilité</h2>
                   <p>
                     En savoir plus
                   </p>
@@ -247,7 +247,7 @@
                 <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Thématique #7</h5>
+                      <h5 class="modal-title" id="exampleModalLabel">La mobilité</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -260,9 +260,9 @@
               </div>
             </div>
             <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3" id="theme1">
-              <div  class="ratio img-responsive img-circle" style="background-image: url(http://trovacamporella.com/img/trovacamporella-fiat500.png);" data-toggle="modal" data-target="#Modal8">
+              <div  class="ratio img-responsive img-circle" style="background-image: url('assets/images/inovia.jpg');" data-toggle="modal" data-target="#Modal8">
                 <div class="caption">
-                  <h2>Thématique #1</h2>
+                  <h2>La poursuite de la reconversion du site Inovia</h2>
                   <p>
                     En savoir plus
                   </p>
@@ -273,7 +273,7 @@
                 <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Thématique #8</h5>
+                      <h5 class="modal-title" id="exampleModalLabel">La poursuite de la reconversion du site Inovia</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
