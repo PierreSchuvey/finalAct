@@ -8,7 +8,7 @@
   <meta name="author" content="Kaiartsu" />
   <meta name="reply-to" content="eloise.couteau@paysnoyonnais.fr">
   <meta name="keywords" content="Assises du Noyonnais ; Noyon ; Campus Inovia ; 27 Juin ; Pays Noyonnais ; CCPN ; Communauté de commune du pays Noyonnais" />
-  <title>Soirée de lancement des assises du Noyonnais | 27 Juin 2019 | Campus Inovia</title>
+  <title>Assises du Noyonnais | Accueil | Hauts-de-France, Noyon</title>
   <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
   <link href="assets/css/animate.css" rel="stylesheet" type="text/css" />
   <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
@@ -158,13 +158,6 @@
           </div>
         </div>
       </main>
-      <footer>
-        <div class="row footer">
-          <div class="col-12">
-
-          </div>
-        </div>
-      </footer>
     </body>
     <script src="assets/js/main.js" type="text/javascript"></script>
     <script src="assets/js/bootstrap.js" type="text/javascript"></script>

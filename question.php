@@ -12,9 +12,11 @@
   <!-- Link CSS -->
   <link href="assets/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
   <link href="assets/css/footer.css" rel="stylesheet" />
-  <link href="assets/css/contact.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <link href="assets/css/question.css" rel="stylesheet" />
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <?php
+    include 'controllers/startQuestion.php';
+  ?>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light">
@@ -43,30 +45,50 @@
       <a class="link active" href="#">Contact</a>
     </div>
   </nav>
-  <main id="">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5 col-xl-5" id="breadCrumb">
-          <p>
-            Accueil \ Thémes
-          </p>
+  <main id="question">
+  <div class="container-fluid">
+    <?php if($_SESSION['connected'] = 0){
+      ?>
+        <div class="row">
+          <div class="col-12">
+            <h1>
+              Questionnaire
+            </h1>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <h1>
-            Contact
-          </h1>
+        <div class="row">
+          <div class="col-12">
+            <p>
+              Le territoire noyonnais lance une réflexion à l’échelle locale associant tous les acteurs de son
+              territoire (porteurs de projets, entreprises, salariés, associations, habitants, communes, etc.). Cette
+              grande consultation prend la forme « d’Assises de l’économie et de l’emploi ».
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-12 text">
-          <p>
-            Pour toutes questions, merci de contacter Eloise Couteau au : <span class="contactLink">03 44 09 60 51</span> ou à <span class="contactLink">eloise.couteau@paysnoyonnais.fr.</span>
-          </p>
+        <div class="row">
+          <div class="col-12">
+            <p>
+              C’est dans ce contexte que la collectivité déploie différents modes de consultation dont ce
+              questionnaire en ligne. Ce format a pour volonté de permettre au plus grand nombre de s’exprimer
+              sur son territoire. L’objectif étant d’améliorer l’attractivité du territoire, en favorisant des solutions
+              endogènes (nouvelles activités économiques).
+            </p>
+          </div>
         </div>
-      </div>
-    </div>
+        <div class="row">
+          <div class="col-12">
+            <form class="" action="#" method="post">
+            <button type="submit" name="startQuestion">Commencer le questionnaire</button>
+          </div>
+            <div class="col-12">
+            <input type="checkbox" id="accept" name="accept">
+            <label id="label" for="accept">En répondant à ce questionnaire j'accepte que les données insérées soient enregistrés et étudiés afin d’améliorer l’attractivité du territoire</label>
+            </form>
+          </div>
+          </div>
+      <?php
+    } ?>
+  </div>
   </main>
   <footer id="footer">
     <div class="row">
