@@ -8,11 +8,12 @@
   <meta name="author" content="Kaiartsu" />
   <meta name="reply-to" content="contact@kaiartsu.fr">
   <meta name="keywords" content="" />
-  <title>Kaiartsu | L'agence web symbiotique | Création de sites web | Identité visuelle | Hauts-de-France, Noyon</title>
+  <title>Assises du Noyonnais | Ateliers | Hauts-de-France, Noyon</title>
   <!-- Link CSS -->
   <link href="assets/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
   <link href="assets/css/atelier.css" rel="stylesheet" />
   <link href="assets/css/mediaAtelier.css" rel="stylesheet" />
+  <link href="assets/css/footer.css" rel="stylesheet" />
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
 <body>
@@ -202,6 +203,30 @@
       </div>
     </div>
   </main>
+  <footer id="footer">
+    <div class="row">
+      <p class="categoriesFooter offset-5 col-2">Partenaires</p>
+    </div>
+    <div class="row">
+      <div class="col-4 col-sm-3 col-md-2 col-lg-2 offset-xl-2 col-xl-2 imgFoot">
+        <img src="assets/images/hdf.jpg">
+      </div>
+      <div class="col-4 col-sm-3 col-md-2 col-lg-2 offset-xl-1 col-xl-2 imgFoot">
+        <img src="assets/images/ccpn.jpg">
+      </div>
+      <div class="col-4 col-sm-3 col-md-2 col-lg-2 offset-xl-1 col-xl-2 imgFoot">
+        <img src="assets/images/noyonLogo.jpg">
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <p id="makeBy" class="col-12">Site développé par <a href="https://www.kaiartsu.fr" title="www.kaiartsu.fr">Kaiartsu</a></p>
+    </div>
+    <div class="row">
+      <p id="makeBy" class="col-6"><a href="https://www.kaiartsu.fr" title="www.kaiartsu.fr">Mentions légales</a></p>
+        <p id="makeBy" class="col-6"><a href="https://www.kaiartsu.fr" title="www.kaiartsu.fr">Politiques de confidentialité</a></p>
+    </div>
+  </footer>
   <script src="assets/lib/bootstrap/js/bootstrap.js" type="text/javascript"></script>
   <script src="assets/js/main.js" type="text/javascript"></script>
 </body>

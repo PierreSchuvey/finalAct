@@ -2,6 +2,9 @@
   font-family: "LemonMilk";
   src: url('../fonts/LemonMilk.otf');
 }
+body{
+  overflow-x: hidden;
+}
 .navbar-light{
   height: 100px;
   background-color: #833089;
