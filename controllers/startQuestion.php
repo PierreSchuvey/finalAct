@@ -1,10 +1,15 @@
 <?php
+$formError = array();
 if(isset($_POST['startQuestion']) && !empty($_POST['accept'])){
   $user = new users();
   $user->addUser();
   session_start();
   $_SESSION['connected'] = 1;
-}elseif(isset($_POST['perso'])){
+}elseif(isset($_POST['startQuestion']) && empty($_POST['accept'])){
+  $formError['errorAccept'] = 'Vous devez acceptez les conditions pour répondre au questionnaire';
+}
+
+if(isset($_POST['perso']) && !empty($_POST['zip'])){
   $user = new users();
   $user->city = htmlspecialchars($_POST['local']);
   $user->zip = htmlspecialchars($_POST['zip']);
@@ -13,11 +18,40 @@ if(isset($_POST['startQuestion']) && !empty($_POST['accept'])){
   $user->grade = htmlspecialchars($_POST['graduate']);
   $user->job = htmlspecialchars($_POST['pro']);
   $user->addPerso();
-  $_SESSION['connected'] = 1;
+  $_SESSION['connected'] = 2;
   $themesList = new themes();
   $allThemes = $themesList->allThemes();
-}elseif(isset($_POST['selectTheme'])){
+}elseif(isset($_POST['perso']) && empty($_POST['zip'])){
   $_SESSION['connected'] = 1;
+  $formError['errorZip'] = 'Merci de rentrer un code postal';
+}
+
+if(isset($_POST['selectTheme'])){
+$themesList = new themes();
+$allThemes = $themesList->allThemes();
+    if($_POST[1] == $_POST[2] || $_POST[1] == $_POST[3] || $_POST[1] == $_POST[4] || $_POST[1] == $_POST[5] || $_POST[1] == $_POST[6] || $_POST[1] == $_POST[7]){
+      $formError['errorSame'] = 'Vous avez selectionnez deux fois la même note';
+      $_SESSION['connected'] = 2;
+    }elseif($_POST[2] == $_POST[3] || $_POST[2] == $_POST[4] || $_POST[2] == $_POST[5] || $_POST[2] == $_POST[6] || $_POST[2] == $_POST[7] ){
+      $formError['errorSame'] = 'Vous avez selectionnez deux fois la même note';
+      $_SESSION['connected'] = 2;
+    }elseif($_POST[3] == $_POST[4] || $_POST[3] == $_POST[5] || $_POST[3] == $_POST[6] || $_POST[3] == $_POST[7]){
+      $formError['errorSame'] = 'Vous avez selectionnez deux fois la même note';
+      $_SESSION['connected'] = 2;
+    }elseif($_POST[4] == $_POST[5] || $_POST[4] == $_POST[6] || $_POST[4] == $_POST[7]){
+      $formError['errorSame'] = 'Vous avez selectionnez deux fois la même note';
+      $_SESSION['connected'] = 2;
+    }elseif($_POST[5] == $_POST[6] || $_POST[6] == $_POST[7]){
+      $formError['errorSame'] = 'Vous avez selectionnez deux fois la même note';
+      $_SESSION['connected'] = 2;
+    }elseif($_POST[6] == $_POST[7]){
+      $formError['errorSame'] = 'Vous avez selectionnez deux fois la même note';
+      $_SESSION['connected'] = 2;
+    }elseif(empty($_POST[1]) || empty($_POST[2]) || empty($_POST[3]) || empty($_POST[4]) || empty($_POST[5]) || empty($_POST[6]) || empty($_POST[7])){
+      $formError['errorSame'] = 'Vous avez selectionnez deux fois la même note';
+      $_SESSION['connected'] = 2;
+    }else{
+  $_SESSION['connected'] = 3;
   $theme = new themes();
   $user = new users();
   $lastId = $user->lastId();
@@ -183,5 +217,7 @@ if(isset($_POST['startQuestion']) && !empty($_POST['accept'])){
     }
 
   $addSelectedTheme = $theme->addSelectedThemes();
+
+    }
 }
 ?>

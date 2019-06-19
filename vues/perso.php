@@ -26,6 +26,7 @@
       <label for="zip">Code postal :</label>
         <input id="zip" name="zip" type="text" pattern="[0-9]*">
       </div>
+      <p class="errorMessage"><?php if(isset($formError['errorZip'])){echo $formError['errorZip'];}?></p>
       <p>Vous êtes :</p>
       <div class="offset-3 offset-sm-5 offset-lg-5">
         <input type="radio" id="man" name="sex" value="Homme"
