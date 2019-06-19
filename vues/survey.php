@@ -1,4 +1,1 @@
-<?php
-var_dump($theme->seventhTheme);
-var_dump($_POST[2]);
- ?>
+<h1>TEST</h1>

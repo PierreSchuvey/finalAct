@@ -90,17 +90,22 @@
             </form>
           </div>
         </div>
-
+        <div class="row">
+          <div class="col-12">
+            <p class="errorMessage"><?php if(isset($formError['errorAccept'])){echo $formError['errorAccept'];}?></p>
+          </div>
+        </div>
       <?php
-      }elseif(isset($_POST['accept'])){
+    }elseif(isset($_POST['accept']) || $_SESSION['connected']==1){
         include 'vues/perso.php';
       }
-      elseif(isset($_POST['perso'])){
+      elseif(isset($_POST['perso']) || $_SESSION['connected']==2){
         include 'vues/selectTheme.php';
       }
-      elseif(isset($_POST['selectTheme'])){
+      elseif(isset($_POST['selectTheme']) || $_SESSION['connected']==3){
         include 'vues/survey.php';
-      } ?>
+      }
+      ?>
     </div>
   </main>
   <footer id="footer">

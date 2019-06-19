@@ -30,7 +30,7 @@
   <?php foreach($allThemes as $allThemes) {?>
     <div class="offset-3 offset-sm-5 offset-lg-5">
     <label for="noyon"><?= $allThemes->name ?> </label><br>
-      <input type="radio" class="themes" name="<?= $allThemes->id ?>" value="1">1</input>
+      <input type="radio" class="themes" name="<?= $allThemes->id ?>" value="1" checked>1</input>
       <input type="radio" class="themes" name="<?= $allThemes->id ?>" value="2">2</input>
       <input type="radio" class="themes" name="<?= $allThemes->id ?>" value="3">3</input>
       <input type="radio" class="themes" name="<?= $allThemes->id ?>" value="4">4</input>
@@ -41,5 +41,6 @@
     <?php
   }
   ?>
+  <p class="errorMessage"><?php if(isset($formError['errorSame'])){echo $formError['errorSame'];}?></p>
   <button id="startQuestionbutton" type="submit" name="selectTheme">Suivant</button>
 </form>
