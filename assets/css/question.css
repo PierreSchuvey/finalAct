@@ -54,11 +54,11 @@ body{
   line-height: 50px;
 }
 
-h1{
+h1, h2{
   margin-top: 50px;
     text-align: center;
     color: white;
-    font-size: 55px;
+    font-size: 40px;
     font-family: 'LemonMilk';
     line-height: 60px;
     margin-bottom: 20px;
@@ -71,7 +71,32 @@ h1{
   text-align: center;
   line-height: 30px;
 }
-button{
+#acceptForm{
+  text-align: center;
+}
+#startQuestionbutton{
   display: block;
   margin: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-color: #B5A6B6;
+  border: #833089 solid 6px;
+  font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+#startQuestionbutton:hover{
+  border: orange solid 6px;
+  cursor:pointer;
+}
+ul li{
+  font-size: 20px;
+  line-height: 30px;
+  list-style:none;
+  padding-left: 0;
+}
+ul{
+  padding-left: 0;
+}
+.themes{
+  margin-left: 10px;
 }
