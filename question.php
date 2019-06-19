@@ -13,9 +13,13 @@
   <link href="assets/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
   <link href="assets/css/footer.css" rel="stylesheet" />
   <link href="assets/css/question.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <?php
-    include 'controllers/startQuestion.php';
+  include_once 'models/dataBase.php';
+  include_once 'models/users.php';
+  include_once 'models/themes.php';
+  include 'controllers/startQuestion.php';
   ?>
 </head>
 <body>
@@ -46,9 +50,9 @@
     </div>
   </nav>
   <main id="question">
-  <div class="container-fluid">
-    <?php if($_SESSION['connected'] = 0){
-      ?>
+    <div class="container-fluid">
+      <?php
+      if(empty($_SESSION['connected'])){?>
         <div class="row">
           <div class="col-12">
             <h1>
@@ -78,17 +82,26 @@
         <div class="row">
           <div class="col-12">
             <form class="" action="#" method="post">
-            <button type="submit" name="startQuestion">Commencer le questionnaire</button>
-          </div>
-            <div class="col-12">
-            <input type="checkbox" id="accept" name="accept">
-            <label id="label" for="accept">En répondant à ce questionnaire j'accepte que les données insérées soient enregistrés et étudiés afin d’améliorer l’attractivité du territoire</label>
+              <button id="startQuestionbutton" type="submit" name="startQuestion">Commencer le questionnaire</button>
+            </div>
+            <div class="col-12 form-group" id="acceptForm">
+              <input type="checkbox" id="accept" name="accept">
+              <label id="label" for="accept">En répondant à ce questionnaire j'accepte que les données insérées soient enregistrés et étudiés afin d’améliorer l’attractivité du territoire</label>
             </form>
           </div>
-          </div>
+        </div>
+
       <?php
-    } ?>
-  </div>
+      }elseif(isset($_POST['accept'])){
+        include 'vues/perso.php';
+      }
+      elseif(isset($_POST['perso'])){
+        include 'vues/selectTheme.php';
+      }
+      elseif(isset($_POST['selectTheme'])){
+        include 'vues/survey.php';
+      } ?>
+    </div>
   </main>
   <footer id="footer">
     <div class="row">
@@ -111,7 +124,7 @@
     </div>
     <div class="row">
       <p id="makeBy" class="col-6"><a href="https://www.kaiartsu.fr" title="www.kaiartsu.fr">Mentions légales</a></p>
-        <p id="makeBy" class="col-6"><a href="https://www.kaiartsu.fr" title="www.kaiartsu.fr">Politiques de confidentialité</a></p>
+      <p id="makeBy" class="col-6"><a href="https://www.kaiartsu.fr" title="www.kaiartsu.fr">Politiques de confidentialité</a></p>
     </div>
   </footer>
   <script src="assets/lib/bootstrap/js/bootstrap.js" type="text/javascript"></script>
