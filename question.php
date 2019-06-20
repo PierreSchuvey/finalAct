@@ -8,7 +8,7 @@
   <meta name="author" content="Kaiartsu" />
   <meta name="reply-to" content="contact@kaiartsu.fr">
   <meta name="keywords" content="" />
-  <title>Kaiartsu | L'agence web symbiotique | Création de sites web | Identité visuelle | Hauts-de-France, Noyon</title>
+  <title>Assises du Noyonnais | Questionnaire | Hauts-de-France, Noyon</title>
   <!-- Link CSS -->
   <link href="assets/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
   <link href="assets/css/footer.css" rel="stylesheet" />
@@ -42,15 +42,22 @@
           <a class="nav-link" href="ateliers.php">Ateliers</a>
         </li>
 
-        <li class="nav-item">
+        <li class="nav-item  active">
           <a class="nav-link" href="#">Questionnaire</a>
         </li>
       </ul>
-      <a class="link active" href="#">Contact</a>
+      <a class="link" href="contact.php">Contact</a>
     </div>
   </nav>
   <main id="question">
     <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5 col-xl-5" id="breadCrumb">
+          <p>
+            <a href="index.php">Accueil</a> \ Questionnaire
+          </p>
+        </div>
+      </div>
       <?php
       if(empty($_SESSION['connected'])){?>
         <div class="row">
@@ -92,7 +99,7 @@
         </div>
         <div class="row">
           <div class="col-12">
-            <p class="errorMessage"><?php if(isset($formError['errorAccept'])){echo $formError['errorAccept'];}?></p>
+            <?php if(isset($formError['errorAccept'])){?><p class="alert alert-danger"><?php echo $formError['errorAccept'];}?></p>
           </div>
         </div>
       <?php

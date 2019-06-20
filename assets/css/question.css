@@ -1,4 +1,4 @@
-@font-face {
+  @font-face {
   font-family: "LemonMilk";
   src: url('../fonts/LemonMilk.otf');
 }
@@ -28,10 +28,14 @@
 }
 
 .link{
-  color: #f59c23;
+  color: white;
   font-size: 20px;
   font-family: 'LemonMilk';
   margin-right: 20px;
+}
+
+.active{
+  color: #f59c23;
 }
 
 body{
@@ -46,7 +50,7 @@ body{
   vertical-align: middle;
 }
 
-#breadCrumb p {
+#breadCrumb p,a {
   color: white;
   font-size: 20px;
   font-family: 'LemonMilk';
@@ -65,6 +69,12 @@ h1, h2{
 }
 #question{
   min-height:56vh;
+}
+#question h3{
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  font-family: 'LemonMilk';
 }
 #question p{
   font-size: 20px;
@@ -99,4 +109,50 @@ ul{
 }
 .themes{
   margin-left: 10px;
+}
+
+.errorMessage{
+  color: red;
+}
+
+.questionLabel{
+  min-height: 200px;
+  border: #833089 10px solid;
+  border-top: transparent;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+}
+
+.left{
+  border-left: transparent;
+  border-color: orange;
+}
+
+.right{
+  border-right: transparent;
+}
+
+.questionTitleOrange{
+  background-color: orange;
+}
+
+.questionTitlePurple{
+  background-color: #833089;
+}
+
+.labelTitle{
+  font-size: 20px;
+}
+
+.question{
+  padding-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.borderQuestion{
+  border-bottom: 5px #833089 solid;
+}
+
+label{
+  font-family: 'Raleway';
 }

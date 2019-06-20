@@ -26,21 +26,24 @@
 </div>
 </div>
 <form class="" action="#" method="post">
-  <p>Vous résidez :</p>
-  <?php foreach($allThemes as $allThemes) {?>
-    <div class="offset-3 offset-sm-5 offset-lg-5">
-    <label for="noyon"><?= $allThemes->name ?> </label><br>
-      <input type="radio" class="themes" name="<?= $allThemes->id ?>" value="1" checked>1</input>
-      <input type="radio" class="themes" name="<?= $allThemes->id ?>" value="2">2</input>
-      <input type="radio" class="themes" name="<?= $allThemes->id ?>" value="3">3</input>
-      <input type="radio" class="themes" name="<?= $allThemes->id ?>" value="4">4</input>
-      <input type="radio" class="themes" name="<?= $allThemes->id ?>" value="5">5</input>
-      <input type="radio" class="themes" name="<?= $allThemes->id ?>" value="6">6</input>
-      <input type="radio" class="themes" name="<?= $allThemes->id ?>" value="7">7</input>
-    </div>
-    <?php
-  }
-  ?>
-  <p class="errorMessage"><?php if(isset($formError['errorSame'])){echo $formError['errorSame'];}?></p>
+  <div class="questionLabel right">
+    <h3 class="questionTitlePurple">Vous résidez :</h3>
+    <?php foreach($allThemes as $allThemes) {?>
+      <div class="question">
+      <label for="noyon" class="labelTitle"><?= $allThemes->name ?> </label><br>
+        <input type="radio" class="themes" name="<?= $allThemes->id ?>" value="1" checked>1</input>
+        <input type="radio" class="themes" name="<?= $allThemes->id ?>" value="2">2</input>
+        <input type="radio" class="themes" name="<?= $allThemes->id ?>" value="3">3</input>
+        <input type="radio" class="themes" name="<?= $allThemes->id ?>" value="4">4</input>
+        <input type="radio" class="themes" name="<?= $allThemes->id ?>" value="5">5</input>
+        <input type="radio" class="themes" name="<?= $allThemes->id ?>" value="6">6</input>
+        <input type="radio" class="themes" name="<?= $allThemes->id ?>" value="7">7</input>
+      </div>
+      <div class="borderQuestion">      </div>
+      <?php
+    }
+    ?>
+    <?php if(isset($formError['errorSame'])){?><p class="alert alert-danger"><?php echo $formError['errorSame'];}?></p>
+  </div>
   <button id="startQuestionbutton" type="submit" name="selectTheme">Suivant</button>
 </form>
