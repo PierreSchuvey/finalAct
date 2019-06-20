@@ -43,7 +43,7 @@
                     </div>
                   </div>
                   <div class="row lineBox">
-                    <div id="inboxText" class=" col-12 ">
+                    <div id="inboxText" class="col-12">
                       <a href="themes.php" title="Thématiques">Thématiques</a>
                       <a href="question.php" title="Questionnaire">Questionnaire</a>
                       <a href="ateliers.php" title="Ateliers">Ateliers</a>

@@ -36,10 +36,10 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#">Questionnaire</a>
+          <a class="nav-link" href="question.php">Questionnaire</a>
         </li>
       </ul>
-      <a class="link" href="#">Contact</a>
+      <a class="link" href="contact.php">Contact</a>
     </div>
   </nav>
   <main id="">
@@ -47,7 +47,7 @@
       <div class="row">
         <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5 col-xl-5" id="breadCrumb">
           <p>
-            Accueil \ Thémes
+            <a href="index.php">Accueil</a> \ Thémes
           </p>
         </div>
       </div>
