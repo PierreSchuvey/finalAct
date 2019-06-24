@@ -75,6 +75,13 @@ h1, h2{
   text-align: center;
   line-height: 30px;
   font-family: 'LemonMilk';
+  color:orange;
+}
+#question h4{
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  font-family: 'LemonMilk';
 }
 #question p{
   font-size: 20px;
@@ -159,4 +166,13 @@ ul{
 
 label{
   font-family: 'Raleway';
+}
+hr{
+  margin-top: 50px;
+    margin-bottom: 50px;
+    border:solid white 2px;
+}
+textarea{
+  width:50%;
+  height: 200px;
 }

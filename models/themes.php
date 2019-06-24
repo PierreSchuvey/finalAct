@@ -10,6 +10,7 @@ class themes extends dataBase {
     public $sixthTheme = 0;
     public $seventhTheme = 0;
     public $iduser = 0;
+    public $idUser = 0;
 
     public function __construct() {
         parent::__construct();
@@ -38,6 +39,16 @@ public function allThemes() {
         return $addSelectedThemes->execute();
     }
 
+    public function themeBySelect() {
+        $themeBySelect = $this->db->prepare('SELECT `name`, `id`, `intro` FROM `themes`
+        WHERE `id` = (SELECT `firstTheme` FROM `selectedthem` WHERE idUser = :idUser)
+        OR `id` = (SELECT `secondTheme` FROM `selectedthem` WHERE idUser = :idUser)
+        OR `id` = (SELECT `thirdTheme` FROM `selectedthem` WHERE idUser = :idUser)');
+        $themeBySelect->bindValue(':idUser', $this->idUser, PDO::PARAM_INT);
+        $themeBySelect->execute();
+        $themeBySelect = $themeBySelect->fetchAll(PDO::FETCH_OBJ);
+        return $themeBySelect;
+    }
     public function __destruct() {
 
     }

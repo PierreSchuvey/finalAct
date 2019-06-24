@@ -3,8 +3,11 @@ $formError = array();
 if(isset($_POST['startQuestion']) && !empty($_POST['accept'])){
   $user = new users();
   $user->addUser();
+  $id = $user->lastId();
+  $job = $user->takeJob();
   session_start();
   $_SESSION['connected'] = 1;
+
 }elseif(isset($_POST['startQuestion']) && empty($_POST['accept'])){
   $formError['errorAccept'] = 'Vous devez acceptez les conditions pour répondre au questionnaire';
 }
@@ -51,11 +54,14 @@ $allThemes = $themesList->allThemes();
       $formError['errorSame'] = 'Vous avez selectionnez deux fois la même note';
       $_SESSION['connected'] = 2;
     }else{
-  $_SESSION['connected'] = 3;
   $theme = new themes();
   $user = new users();
-  $lastId = $user->lastId();
-  $theme->idUser = $lastId->lastId;
+  $id = $user->lastId();
+  $job = $user->takeJob();
+    $_SESSION['connected'] = 3;
+    $_SESSION['id'] = $id->lastId;
+    $_SESSION['job'] = $job->job;
+  $theme->idUser = $_SESSION['id'];
     if($_POST[1] == 1){
       $theme->firstTheme = 1;
     }
@@ -215,8 +221,13 @@ $allThemes = $themesList->allThemes();
     else{
       $theme->seventhTheme = 7;
     }
-
-  $addSelectedTheme = $theme->addSelectedThemes();
+    if(empty($formError['errorSame'])){
+      $addSelectedTheme = $theme->addSelectedThemes();
+      ?>
+      <meta http-equiv="refresh" content="0.1;URL=survey.php ?>">
+      <?php  
+    }
+    /**/
 
     }
 }
