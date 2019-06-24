@@ -45,5 +45,7 @@
     ?>
     <?php if(isset($formError['errorSame'])){?><p class="alert alert-danger"><?php echo $formError['errorSame'];}?></p>
   </div>
+
+  <?= var_dump($formError['errorSame']); ?>
   <button id="startQuestionbutton" type="submit" name="selectTheme">Suivant</button>
 </form>

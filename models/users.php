@@ -73,13 +73,20 @@ class users extends dataBase {
      * Méthode permettant de récupérer l'id du dérnier utilisateur et de l'incrémenté de 1
      */
 
-    public function lastId() {
-        $lastId = $this->db->prepare('SELECT MAX(`id`)+1 AS lastId FROM users');
-        $lastId->execute();
-        if (is_object($lastId)) {
-            return $lastId = $lastId->fetch(PDO::FETCH_OBJ);
-        }
-    }
+     public function lastId() {
+           $lastId = $this->db->prepare('SELECT MAX(`id`) AS lastId FROM users');
+         $lastId->execute();
+         if (is_object($lastId)) {
+             return $lastId = $lastId->fetch(PDO::FETCH_OBJ);
+         }
+     }
+     public function takeJob() {
+           $lastId = $this->db->prepare('SELECT `job` FROM users WHERE id =(SELECT MAX(`id`) FROM `users`)');
+         $lastId->execute();
+         if (is_object($lastId)) {
+             return $lastId = $lastId->fetch(PDO::FETCH_OBJ);
+         }
+     }
 
     /*
      * Méthode permettant de récupérer le mot de passe de l'utilisateur
