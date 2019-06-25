@@ -81,7 +81,13 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                      ...
+                      Le territoire noyonnais sera traversé par le Canal Seine Nord Europe. Il disposera d’une
+plateforme multimodale et de plusieurs ouvrages d’art. Des travaux importants seront ainsi
+réalisés sur le noyonnais. Ce chantier aura un impact sur l’économie locale pendant la phase
+de travaux et après sa réalisation (plateforme + flux marchands).
+
+Cet atelier sera dédié à l’anticipation et à la communication locale menée autour du chantier
+du Canal Seine Nord Europe.
                     </div>
                   </div>
                 </div>
@@ -107,7 +113,13 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                      ...
+                      Le territoire noyonnais s’est doté en 2017, d’une feuille de route numérique. L’objectif de ce
+document est de définir une stratégie numérique permettant de développer les usages et déployer
+des services numériques innovants afin d’améliorer la gestion des services publics, la qualité de vie
+des usagers et développer l’attractivité du territoire.
+Un premier atelier sera dédié au développement et à l’attractivité du maker space.
+Un second atelier portera sur le développement des services auprès des administrés
+(habitants, entreprises, …).
                     </div>
                   </div>
                 </div>
@@ -133,7 +145,13 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                      ...
+                      Le territoire noyonnais dispose d’un pôle commercial (zone d’activités du Mont Renaud), d’un
+centre-ville doté de divers commerces de proximité (ville de Noyon) et de quelques centre-bourg
+répartis sur les communes rurales du territoire.
+Il n’y a pas de groupe de travail ouvert pour cette thématique.
+Cette thématique sera abordée via le questionnaire en ligne.
+Ce groupe de travail se verra ensuite alimenté par l’étude SEMAEST (redynamisation des
+centres-villes).
                     </div>
                   </div>
                 </div>
@@ -149,8 +167,8 @@
       <div class="row" id="line2">
         <div class="col-12" id="backOnBack">
           <div class="row">
-            <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3 firstPlace" id="theme1">
-              <div  class="ratio img-responsive img-circle" style="background-image: url(http://trovacamporella.com/img/trovacamporella-fiat500.png);" data-toggle="modal" data-target="#Modal4">
+            <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3 offset-lg-3" id="theme1">
+              <div  class="ratio img-responsive img-circle" style="background-image: url('assets/images/entreprise.jpg');" data-toggle="modal" data-target="#Modal4">
                 <div class="caption">
                   <h2>L’offre d’accueil des entreprises</h2>
                   <p>
@@ -169,14 +187,20 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                      ...
+                      Le noyonnais dispose d’une offre foncière et immobilière diverse, répartie sur son territoire.
+Elle compte ainsi plusieurs zone d’activités (ZI est de Noyon, ZAE de Noyon-Passel, ZA de Crisolles et
+Guiscard), ainsi qu’un pôle commercial portant un projet d’extension sur Noyon.
+Le territoire noyonnais, situé sur le tracé du Canal Seine Nord Europe, se verra également doté d’une
+plateforme multimodale.
+Cette thématique portera sur l’optimisation du parcours résidentiel des entreprises, l’environnement
+de travail et l’attractivité du territoire.
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3" id="theme1">
-              <div  class="ratio img-responsive img-circle" style="background-image: url(http://trovacamporella.com/img/trovacamporella-fiat500.png);" data-toggle="modal" data-target="#Modal5">
+              <div  class="ratio img-responsive img-circle" style="background-image: url('assets/images/formation.jpg');" data-toggle="modal" data-target="#Modal5">
                 <div class="caption">
                   <h2>L’emploi et la formation</h2>
                   <p>
@@ -195,33 +219,13 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                      ...
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3" id="theme1">
-              <div  class="ratio img-responsive img-circle" style="background-image: url(http://trovacamporella.com/img/trovacamporella-fiat500.png);" data-toggle="modal" data-target="#Modal6">
-                <div class="caption">
-                  <h2>Spécialisation et filiarisation<br /> de l’économie noyonnaise</h2>
-                  <p>
-                    En savoir plus
-                  </p>
-                </div>
-              </div>
-              <!-- Modal -->
-              <div class="modal fade bd-example-modal-lg" id="Modal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Spécialisation et filiarisation de l’économie noyonnaise</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      ...
+                      Le territoire noyonnais est impacté par un taux de chômage important (plus élevé que la moyenne
+nationale à 10%). Cette problématique se retrouve également dans le faible pourcentage d’habitants
+diplômés (46% ont un brevet ou son sans diplôme). Ces aspects représentent des freins à l’emploi,
+pour un territoire rural. Comment améliorer l’employabilité des habitants ?
+Deux ateliers porteront sur les besoins en main d’œuvre et en formation du territoire mais également
+sur la coordination des acteurs de l’emploi.
+Un troisième atelier sera consacré aux filières et secteurs porteurs.
                     </div>
                   </div>
                 </div>
@@ -254,7 +258,12 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                      ...
+                      La mobilité est souvent mise en avant comme frein à l’emploi, et en particulier dans un territoire
+majoritairement rural. Quelles solutions mettre en place afin d’améliorer la mobilité des habitants et
+donc leur permettre d’accéder à l’emploi ?
+Cet atelier permettra d’évaluer les freins et les besoins du territoire en terme de mobilité.
+Au-delà des dispositifs existants, il sera question de réfléchir à la création de nouveaux services
+complémentaires.
                     </div>
                   </div>
                 </div>
@@ -280,7 +289,14 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                      ...
+                      Après la fermeture du RMT (régiment de marche du Tchad), la collectivité à racheter le site militaire a
+l’Etat. Cette acquisition a été réalisée dans le cadre d’un CRSD (contrat de redynamisation des sites
+de défense) et a permis la création du campus économique Inovia, site accueillant aujourd’hui une
+soixantaine d’entreprises pour environ 300 salariés.
+Le campus dispose également d’espaces de travail, d’un coworking, d’espaces dédiés à
+l’évènementiel et à la location (salle de formation, amphithéâtre, showroom…).
+Cet atelier portera sur le travail à mener autour de la visibilité du campus économique Inovia ainsi
+que sur les services associés au lieu.
                     </div>
                   </div>
                 </div>
