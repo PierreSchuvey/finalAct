@@ -67,6 +67,17 @@ class survey extends dataBase {
         //Si l'insertion s'est correctement déroulée on retourne vrai
         return $addSelectedThemes->execute();
     }
+    public function addAnswersMulti() {
+        //On prépare la requête sql qui insert dans les champs selectionnés, les valeurs sont des marqueurs nominatifs
+        $query = 'INSERT INTO  `globalAnswers`(`idUser`, `idThemes`, `idQuestion`, `reponseUn`) VALUES(:idUser, :idTheme, :idQuestion, :reponseDeux)';
+        $addSelectedThemes = $this->db->prepare($query);
+        $addSelectedThemes->bindValue(':idUser', $this->idUser, PDO::PARAM_INT);
+        $addSelectedThemes->bindValue(':idTheme', $this->idTheme, PDO::PARAM_INT);
+        $addSelectedThemes->bindValue(':idQuestion', $this->idQuestion, PDO::PARAM_INT);
+        $addSelectedThemes->bindValue(':reponseDeux', $this->reponseDeux, PDO::PARAM_STR);
+        //Si l'insertion s'est correctement déroulée on retourne vrai
+        return $addSelectedThemes->execute();
+    }
     public function __destruct() {
 
     }
