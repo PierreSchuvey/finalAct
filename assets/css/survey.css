@@ -179,3 +179,39 @@ textarea{
   width:50%;
   height: 200px;
 }
+.card{
+  margin-bottom: 20px;
+}
+.card-header{
+  background-color: #F59C23;
+  text-align: center;
+}
+.btn-link{
+  font-size: 35px;
+  color:white;
+  font-family: 'LemonMilk';
+}
+.btn-link small{
+  font-size: 20px;
+  color:white;
+  font-family: 'LemonMilk';
+}
+.card-header:hover{
+  color: white;
+  background-image: linear-gradient(to left,
+    #7E3089,
+    #7E3089 50%,
+    transparent 50%,
+    transparent);
+    background-position: -100% 0;
+    background-size: 200% 100%;
+    transition: all 0.8s ease-out;
+}
+.btn-link:hover{
+  font-size: 35px;
+  color: #F59C23;
+  font-family: 'LemonMilk';
+}
+.btn-link:hover>small{
+  text-decoration: none;
+}
