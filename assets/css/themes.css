@@ -176,3 +176,14 @@ h1{
       line-height: 45px;
   }
 }
+
+.modal-content{
+  border-radius: 0px;
+  background-color: #B5A6B6;
+  color: white;
+  font-family: 'Raleway'
+}
+
+.modal-header h5{
+  font-family: 'LemonMilk'
+}

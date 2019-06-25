@@ -79,6 +79,12 @@ h1{
 }
 .atelierCard p{
   margin-bottom: 0;
+  padding-right: 20px;
+}
+
+.date{
+  font-weight: bold;
+  color: purple;
 }
 #parallelogramPurR{
     width: 60%;
@@ -104,14 +110,12 @@ h1{
 }
 .atelier{
   color: #202020;
-font-size: 35px;
 font-family: 'LemonMilk';
 text-align: center;
-margin-left: -40px;
+margin-left: -80px;
 }
 .atelierR{
   color: #202020;
-font-size: 35px;
 font-family: 'LemonMilk';
 text-align: center;
 margin-left: -160px;
