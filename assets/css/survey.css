@@ -82,6 +82,7 @@ h1, h2{
   text-align: center;
   line-height: 30px;
   font-family: 'LemonMilk';
+  color:white;
 }
 #question p{
   font-size: 20px;
@@ -166,6 +167,8 @@ ul{
 
 label{
   font-family: 'Raleway';
+  font-size: 20px;
+  font-weight: bold;
 }
 hr{
   margin-top: 50px;

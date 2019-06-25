@@ -86,41 +86,23 @@
               ?><h4 class="questionTitlePurple"><?= $takeQuestions->label;?></h4><?php
               $survey->idQuestion =$takeQuestions->id;
               $takeAnswers = $survey->takeAnswers();
-              if(isset($_POST['finishSurvey']) && !empty($_POST[''.$takeQuestions->id.''])){
-                $survey->idTheme = $themeBySelect->id;
-                $survey->idQuestion = $takeQuestions->id;
-                $survey->reponseUn = $_POST[''.$takeQuestions->id.''];
-                $survey->idUser = $_SESSION['id'];
-                $survey->addAnswers();
-              }elseif(isset($_POST['finishSurvey']) && empty($_POST[''.$takeQuestions->id.''])){
+              if(isset($_POST['finishSurvey']) && empty($_POST[''.$takeQuestions->id.''])){
                 $survey->idTheme = $themeBySelect->id;
                 $survey->idQuestion = $takeQuestions->id;
                 $survey->reponseUn = NULL;
                 $survey->idUser = $_SESSION['id'];
                 $survey->addAnswers();
-              }elseif(isset($_POST['finishSurvey']) && isset($_POST[''.$takeAnswers->id.''])){
-                $survey->idTheme = $themeBySelect->id;
-                $survey->idQuestion = $takeQuestions->id;
-                $survey->reponseUn = $_POST[''.$takeAnswers->id.''];
-                $survey->idUser = $_SESSION['id'];
-                $survey->addAnswers();
               }
 
               foreach($takeAnswers as $takeAnswers) {
-                if(isset($_POST[''.$takeAnswers->id.''])){
-                  var_dump($_POST[''.$takeAnswers->id.'']);
-                }
                 if($takeAnswers->label !== "NONE"){
                   if($takeQuestions->multi == 1){
-
                     ?>
                     <div class="offset-3 offset-sm-5 offset-lg-5 ">
-                      <input type="checkbox" id="<?= $takeAnswers->id;?>" name="<?= $takeAnswers->id;?>" value="<?= $takeAnswers->id;?>">
-                      <label for="<?= $takeAnswers->id;?>"><?= $takeAnswers->label;?></label>
+                      <input type="checkbox" id="<?= $takeQuestions->id;?>" name="<?=$takeQuestions->id?>" value="<?= $takeAnswers->id;?>">
+                      <label for="<?= $takeQuestions->id;?>"><?= $takeAnswers->label;?></label>
                     </div>
                     <?php
-
-
                   }else{
                     ?>
                     <div class="offset-3 offset-sm-5 offset-lg-5 ">
@@ -136,6 +118,14 @@
                   </div>
                   <?php
                 }
+              }
+              if(isset($_POST['finishSurvey']) && !empty($_POST[''.$takeQuestions->id.''])){
+
+                $survey->idTheme = $themeBySelect->id;
+                $survey->idQuestion = $takeQuestions->id;
+                $survey->reponseUn = $_POST[''.$takeQuestions->id.''];
+                $survey->idUser = $_SESSION['id'];
+                $survey->addAnswers();
               }
             }
           }elseif($themeBySelect->id == 2 && $_SESSION['job'] == "Etudiant"){
@@ -295,6 +285,57 @@
           elseif($themeBySelect->id == 2 && $_SESSION['job'] == "Agriculteur" || $_SESSION['job'] == "Profession intermédiaire" || $_SESSION['job'] == "Employé" || $_SESSION['job'] == "Ouvrier" || $_SESSION['job'] == "Retraité"){
             $survey->idFirstTheme = $themeBySelect->id;
             $takeQuestions = $survey->takeQuestionWorker();
+            foreach($takeQuestions as $takeQuestions) {
+              ?><h4 class="questionTitlePurple"><?= $takeQuestions->label;?></h4><?php
+              $survey->idQuestion =$takeQuestions->id;
+              $takeAnswers = $survey->takeAnswers();
+              if(isset($_POST['finishSurvey']) && !empty($_POST[''.$takeQuestions->id.''])){
+                $survey->idTheme = $themeBySelect->id;
+                $survey->idQuestion = $takeQuestions->id;
+                $survey->reponseUn = $_POST[''.$takeQuestions->id.''];
+                $survey->idUser = $_SESSION['id'];
+                $survey->addAnswers();
+              }elseif(isset($_POST['finishSurvey']) && empty($_POST[''.$takeQuestions->id.''])){
+                $survey->idTheme = $themeBySelect->id;
+                $survey->idQuestion = $takeQuestions->id;
+                $survey->reponseUn = NULL;
+                $survey->idUser = $_SESSION['id'];
+                $survey->addAnswers();
+              }
+
+              foreach($takeAnswers as $takeAnswers) {
+                if($takeAnswers->label !== "NONE"){
+                  if($takeQuestions->multi == 1){
+                    // code...
+
+                    ?>
+                    <div class="offset-3 offset-sm-5 offset-lg-5 ">
+                      <input type="checkbox" id="<?= $takeQuestions->id;?>" name="<?= $takeAnswers->id;?>" value="<?= $takeAnswers->id;?>">
+                      <label for="<?= $takeQuestions->id;?>"><?= $takeAnswers->label;?></label>
+                    </div>
+                    <?php
+
+
+                  }else{
+                    ?>
+                    <div class="offset-3 offset-sm-5 offset-lg-5 ">
+                      <input type="radio" id="<?= $takeQuestions->id;?>" name="<?= $takeQuestions->id;?>" value="<?= $takeAnswers->id;?>">
+                      <label for="<?= $takeAnswers->id;?>"><?= $takeAnswers->label;?></label>
+                    </div>
+                    <?php
+                  }
+                }else{
+                  ?>
+                  <div class="offset-1 offset-sm-5 offset-lg-4 ">
+                    <textarea id="<?= $takeQuestions->id;?>" name="<?= $takeQuestions->id;?>" placeholder="Expressions libre ..."></textarea>
+                  </div>
+                  <?php
+                }
+              }
+            }
+          }elseif($themeBySelect->id == 6 && $_SESSION['job'] == "Artisan, commerçant, chef d’entreprise" ||  $_SESSION['job'] == "Artisan, commerçant, chef d’entreprise"){
+            $survey->idFirstTheme = $themeBySelect->id;
+            $takeQuestions = $survey->takeQuestionDe();
             foreach($takeQuestions as $takeQuestions) {
               ?><h4 class="questionTitlePurple"><?= $takeQuestions->label;?></h4><?php
               $survey->idQuestion =$takeQuestions->id;
