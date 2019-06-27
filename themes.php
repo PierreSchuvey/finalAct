@@ -13,6 +13,7 @@
   <link href="assets/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
   <link href="assets/css/footer.css" rel="stylesheet" />
   <link href="assets/css/themes.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
 <body>
@@ -61,7 +62,7 @@
       <div class="row" id="line1">
         <div class="col-12" id="backOnBack">
           <div class="row">
-            <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3  offset-2 offset-md-0 offset-lg-2" id="theme1">
+            <div class="col-8 offset-2 col-sm-5 offset-sm-4 col-md-4 offset-md-0 col-lg-4 offset-lg-0 col-xl-3 offset-xl-2" id="theme2">
               <div  class="ratio img-responsive img-circle" style="background-image: url('assets/images/csne.jpg');" data-toggle="modal" data-target="#exampleModal">
                 <div class="caption">
                   <h2>CSNE</h2>
@@ -93,7 +94,7 @@ du Canal Seine Nord Europe.
                 </div>
               </div>
             </div>
-            <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3  offset-2 offset-md-0" id="theme1">
+            <div class="col-8 offset-2 col-sm-5 offset-sm-4 col-md-4 offset-md-0 col-lg-4 col-xl-3" id="theme1">
               <div  class="ratio img-responsive img-circle" style="background-image: url('assets/images/test.png');" data-toggle="modal" data-target="#Modal2">
                 <div class="caption">
                   <h2>Le numérique</h2>
@@ -125,7 +126,7 @@ Un second atelier portera sur le développement des services auprès des adminis
                 </div>
               </div>
             </div>
-            <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3  offset-2 offset-md-0" id="theme1">
+            <div class="col-8 col-sm-5 offset-sm-4 col-md-4 col-lg-4 col-xl-3  offset-2 offset-md-0" id="theme1">
               <div  class="ratio img-responsive img-circle" style="background-image: url('assets/images/eco.jpg');" data-toggle="modal" data-target="#Modal3">
                 <div class="caption">
                   <h2>L’économie de proximité</h2>
@@ -167,7 +168,7 @@ centres-villes).
       <div class="row" id="line2">
         <div class="col-12" id="backOnBack">
           <div class="row">
-            <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3 offset-lg-3 offset-md-3  offset-2" id="theme1">
+            <div class="col-8 col-sm-5 offset-sm-4 col-md-4 col-lg-4 col-xl-3  offset-xl-3 offset-lg-2 offset-md-2  offset-2" id="theme1">
               <div  class="ratio img-responsive img-circle" style="background-image: url('assets/images/entreprise.jpg');" data-toggle="modal" data-target="#Modal4">
                 <div class="caption">
                   <h2>L’offre d’accueil des entreprises</h2>
@@ -199,7 +200,7 @@ de travail et l’attractivité du territoire.
                 </div>
               </div>
             </div>
-            <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3  offset-2 offset-md-0" id="theme1">
+            <div class="col-8 col-sm-5 offset-sm-4 col-md-4 col-lg-4 col-xl-3  offset-2 offset-md-0" id="theme1">
               <div  class="ratio img-responsive img-circle" style="background-image: url('assets/images/formation.jpg');" data-toggle="modal" data-target="#Modal5">
                 <div class="caption">
                   <h2>L’emploi et la formation</h2>
@@ -238,7 +239,7 @@ Un troisième atelier sera consacré aux filières et secteurs porteurs.
       <div class="row" id="line3">
         <div class="col-12" id="backOnBack">
           <div class="row">
-            <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3 offset-lg-3  offset-md-3 offset-2" id="theme1">
+            <div class="col-8 col-sm-5 offset-sm-4 col-md-4 col-lg-4 col-xl-3 offset-lg-2  offset-xl-3  offset-md-2 offset-2" id="theme1">
               <div  class="ratio img-responsive img-circle" style="background-image: url('assets/images/bus.jpg');" data-toggle="modal" data-target="#Modal7">
                 <div class="caption">
                   <h2>La mobilité</h2>
@@ -269,7 +270,7 @@ complémentaires.
                 </div>
               </div>
             </div>
-            <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3  offset-2 offset-md-0" id="theme1">
+            <div class="col-8 col-sm-5 offset-sm-4 col-md-4 col-lg-4 col-xl-3  offset-2 offset-md-0" id="theme1">
               <div  class="ratio img-responsive img-circle" style="background-image: url('assets/images/inovia.jpg');" data-toggle="modal" data-target="#Modal8">
                 <div class="caption">
                   <h2>La poursuite de la reconversion du site Inovia</h2>
@@ -313,13 +314,13 @@ que sur les services associés au lieu.
       <p class="categoriesFooter offset-5 col-2">Partenaires</p>
     </div>
     <div class="row">
-      <div class="col-4 col-sm-3 col-md-2 col-lg-2 offset-xl-2 col-xl-2 imgFoot">
+      <div class="col-4 col-sm-3 col-md-4 col-lg-4 offset-xl-2 col-xl-2 imgFoot">
         <img src="assets/images/hdf.jpg">
       </div>
-      <div class="col-4 col-sm-3 col-md-2 col-lg-2 offset-xl-1 col-xl-2 imgFoot">
+      <div class="col-4 col-sm-3 col-md-4 col-lg-4 offset-xl-1 col-xl-2 imgFoot">
         <img src="assets/images/ccpn.jpg">
       </div>
-      <div class="col-4 col-sm-3 col-md-2 col-lg-2 offset-xl-1 col-xl-2 imgFoot">
+      <div class="col-4 col-sm-3 col-md-4 col-lg-4 offset-xl-1 col-xl-2 imgFoot">
         <img src="assets/images/noyonLogo.jpg">
       </div>
     </div>
