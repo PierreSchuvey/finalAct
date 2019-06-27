@@ -71,7 +71,7 @@ l’environnement de travail et l’attractivité du territoire.</p>
                       </div>
                       <div class="row linkSubscribeLine">
                         <div class="col-12 linkSubscribe">
-                          <a href="#" class="">Inscrivez-vous</a>
+                          <a href="#" target="_blank" class="">Inscrivez-vous</a>
                         </div>
                       </div>
                     </div>
@@ -95,7 +95,7 @@ l’environnement de travail et l’attractivité du territoire.</p>
                       </div>
                       <div class="row linkSubscribeLine">
                         <div class="col-12 linkSubscribeR">
-                          <a href="#" class="">Inscrivez-vous</a>
+                          <a href="#" target="_blank" class="">Inscrivez-vous</a>
                         </div>
                       </div>
                     </div>
@@ -121,7 +121,7 @@ l’environnement de travail et l’attractivité du territoire.</p>
                       </div>
                       <div class="row linkSubscribeLine">
                         <div class="col-12 linkSubscribe">
-                          <a href="#" class="">Inscrivez-vous</a>
+                          <a href="#" target="_blank" class="">Inscrivez-vous</a>
                         </div>
                       </div>
                     </div>
@@ -145,7 +145,7 @@ l’environnement de travail et l’attractivité du territoire.</p>
                       </div>
                       <div class="row linkSubscribeLine">
                         <div class="col-12 linkSubscribeR">
-                          <a href="#" class="">Inscrivez-vous</a>
+                          <a href="#" target="_blank" class="">Inscrivez-vous</a>
                         </div>
                       </div>
                     </div>
@@ -171,7 +171,7 @@ l’environnement de travail et l’attractivité du territoire.</p>
                       </div>
                       <div class="row linkSubscribeLine">
                         <div class="col-12 linkSubscribe">
-                          <a href="#" class="">Inscrivez-vous</a>
+                          <a href="https://www.weezevent.com/atelier-emploi-et-formation-assises-de-l-eco-et-de-l-emploi-du-pays-noyonnais" target="_blank" class="">Inscrivez-vous</a>
                         </div>
                       </div>
                     </div>
@@ -194,7 +194,7 @@ l’environnement de travail et l’attractivité du territoire.</p>
                       </div>
                       <div class="row linkSubscribeLine">
                         <div class="col-12 linkSubscribeR">
-                          <a href="#" class="">Inscrivez-vous</a>
+                          <a href="https://www.weezevent.com/atelier-emploi-et-formation-assises-de-l-economie-et-de-l-emploi-du-noyonnais" target="_blank" class="">Inscrivez-vous</a>
                         </div>
                       </div>
                     </div>
@@ -219,7 +219,7 @@ l’environnement de travail et l’attractivité du territoire.</p>
                 </div>
                 <div class="row linkSubscribeLine">
                   <div class="col-12 linkSubscribe">
-                    <a href="#" class="">Inscrivez-vous</a>
+                    <a href="https://www.weezevent.com/atelier-emploi-et-formation-assises-de-l-eco-et-de-l-emploi-du-pays-noyonnais-2" target="_blank" class="">Inscrivez-vous</a>
                   </div>
                 </div>
               </div>
@@ -242,7 +242,7 @@ l’environnement de travail et l’attractivité du territoire.</p>
                 </div>
                 <div class="row linkSubscribeLine">
                   <div class="col-12 linkSubscribeR">
-                    <a href="#" class="">Inscrivez-vous</a>
+                    <a href="https://www.weezevent.com/atelier-mobilite-assises-de-l-economie-et-de-l-emploi-du-pays-noyonnais" target="_blank" class="">Inscrivez-vous</a>
                   </div>
                 </div>
               </div>
@@ -268,7 +268,7 @@ ainsi que sur les services associés au lieu.</p>
                 </div>
                 <div class="row linkSubscribeLine">
                   <div class="col-12 linkSubscribe">
-                    <a href="#" class="">Inscrivez-vous</a>
+                    <a href="https://www.weezevent.com/atelier-nouvelle-impulsion-du-campus-inovia-assises-de-l-eco-et-de-l-emploi" target="_blank" class="">Inscrivez-vous</a>
                   </div>
                 </div>
               </div>
@@ -291,7 +291,7 @@ ainsi que sur les services associés au lieu.</p>
                 </div>
                 <div class="row linkSubscribeLine">
                   <div class="col-12 linkSubscribeR">
-                    <a href="#" class="">Inscrivez-vous</a>
+                    <a href="https://www.weezevent.com/atelier-numerique-maker-space-assises-de-l-eco-et-de-l-empli-du-pays-noyonnais" target="_blank" class="">Inscrivez-vous</a>
                   </div>
                 </div>
               </div>
@@ -316,7 +316,7 @@ ainsi que sur les services associés au lieu.</p>
                 </div>
                 <div class="row linkSubscribeLine">
                   <div class="col-12 linkSubscribe">
-                    <a href="#" class="">Inscrivez-vous</a>
+                    <a href="https://www.weezevent.com/atelier-numerique-assises-de-l-economie-et-de-l-emploi-du-pays-noyonnais" target="_blank" class="">Inscrivez-vous</a>
                   </div>
                 </div>
               </div>
@@ -340,7 +340,7 @@ du Canal Seine Nord Europe.</p>
                 </div>
                 <div class="row linkSubscribeLine">
                   <div class="col-12 linkSubscribeR">
-                    <a href="#" class="">Inscrivez-vous</a>
+                    <a href="https://www.weezevent.com/atelier-anticiper-le-chantier-du-canal-sne-assises-de-l-eco-et-de-l-emploi" target="_blank" class="">Inscrivez-vous</a>
                   </div>
                 </div>
               </div>
