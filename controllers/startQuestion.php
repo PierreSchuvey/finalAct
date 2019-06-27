@@ -224,10 +224,9 @@ $allThemes = $themesList->allThemes();
     if(empty($formError['errorSame'])){
       $addSelectedTheme = $theme->addSelectedThemes();
       ?>
-      <meta http-equiv="refresh" content="0.1;URL=survey.php ?>">
-      <?php  
+      <meta http-equiv="refresh" content="0.1;URL=survey.php">
+      <?php
     }
-    /**/
 
     }
 }
