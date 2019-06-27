@@ -61,7 +61,7 @@
       <div class="row" id="line1">
         <div class="col-12" id="backOnBack">
           <div class="row">
-            <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3 offset-1 firstPlace" id="theme1">
+            <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3  offset-2 offset-md-0 offset-lg-2" id="theme1">
               <div  class="ratio img-responsive img-circle" style="background-image: url('assets/images/csne.jpg');" data-toggle="modal" data-target="#exampleModal">
                 <div class="caption">
                   <h2>CSNE</h2>
@@ -93,7 +93,7 @@ du Canal Seine Nord Europe.
                 </div>
               </div>
             </div>
-            <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3" id="theme1">
+            <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3  offset-2 offset-md-0" id="theme1">
               <div  class="ratio img-responsive img-circle" style="background-image: url('assets/images/test.png');" data-toggle="modal" data-target="#Modal2">
                 <div class="caption">
                   <h2>Le numérique</h2>
@@ -125,7 +125,7 @@ Un second atelier portera sur le développement des services auprès des adminis
                 </div>
               </div>
             </div>
-            <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3" id="theme1">
+            <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3  offset-2 offset-md-0" id="theme1">
               <div  class="ratio img-responsive img-circle" style="background-image: url('assets/images/eco.jpg');" data-toggle="modal" data-target="#Modal3">
                 <div class="caption">
                   <h2>L’économie de proximité</h2>
@@ -167,7 +167,7 @@ centres-villes).
       <div class="row" id="line2">
         <div class="col-12" id="backOnBack">
           <div class="row">
-            <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3 offset-lg-3" id="theme1">
+            <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3 offset-lg-3 offset-md-3  offset-2" id="theme1">
               <div  class="ratio img-responsive img-circle" style="background-image: url('assets/images/entreprise.jpg');" data-toggle="modal" data-target="#Modal4">
                 <div class="caption">
                   <h2>L’offre d’accueil des entreprises</h2>
@@ -199,7 +199,7 @@ de travail et l’attractivité du territoire.
                 </div>
               </div>
             </div>
-            <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3" id="theme1">
+            <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3  offset-2 offset-md-0" id="theme1">
               <div  class="ratio img-responsive img-circle" style="background-image: url('assets/images/formation.jpg');" data-toggle="modal" data-target="#Modal5">
                 <div class="caption">
                   <h2>L’emploi et la formation</h2>
@@ -238,7 +238,7 @@ Un troisième atelier sera consacré aux filières et secteurs porteurs.
       <div class="row" id="line3">
         <div class="col-12" id="backOnBack">
           <div class="row">
-            <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3 offset-lg-3" id="theme1">
+            <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3 offset-lg-3  offset-md-3 offset-2" id="theme1">
               <div  class="ratio img-responsive img-circle" style="background-image: url('assets/images/bus.jpg');" data-toggle="modal" data-target="#Modal7">
                 <div class="caption">
                   <h2>La mobilité</h2>
@@ -269,7 +269,7 @@ complémentaires.
                 </div>
               </div>
             </div>
-            <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3" id="theme1">
+            <div class="col-8 col-sm-5 col-md-3 col-lg-3 col-xl-3  offset-2 offset-md-0" id="theme1">
               <div  class="ratio img-responsive img-circle" style="background-image: url('assets/images/inovia.jpg');" data-toggle="modal" data-target="#Modal8">
                 <div class="caption">
                   <h2>La poursuite de la reconversion du site Inovia</h2>

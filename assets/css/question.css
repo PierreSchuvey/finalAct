@@ -1,10 +1,10 @@
-  @font-face {
+@font-face {
   font-family: "LemonMilk";
   src: url('../fonts/LemonMilk.otf');
 }
 
 .navbar-light{
-  height: 100px;
+  min-height: 100px;
   background-color: #833089;
 }
 .navbar-brand{
@@ -23,8 +23,46 @@
   margin-right: 20px;
 }
 
-.navbar-light .navbar-nav .active > .nav-link{
-  color: orange;
+.navbar-light .navbar-nav .nav-link{
+  position: relative;
+    color:white;
+  text-decoration: none;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color:#B5A6B6;
+}
+.navbar-light .navbar-nav .nav-link:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+
+}
+.navbar-light .navbar-nav .nav-link:hover:before {
+  visibility: visible;
+
+  background-image: linear-gradient(to left,
+    #B5A6B6 50%,
+    #B5A6B6 ,
+    transparent 50%,
+    transparent);
+    background-position: -100% 0;
+    background-size: 200% 100%;
+    transition: all 0.8s ease-out;
+}
+.navbar-light .navbar-nav .nav-link:focus:before {
+  visibility: visible;
+
+  background-image: linear-gradient(to left,
+    #B5A6B6 50%,
+    #B5A6B6 ,
+    transparent 50%,
+    transparent);
+    background-position: -100% 0;
+    background-size: 200% 100%;
+    transition: all 0.8s ease-out;
 }
 
 .link{
@@ -34,8 +72,8 @@
   margin-right: 20px;
 }
 
-.active{
-  color: #f59c23;
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{
+  color: orange;
 }
 
 body{
