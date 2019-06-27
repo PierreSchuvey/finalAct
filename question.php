@@ -117,7 +117,7 @@
               </div>
               <div class="col-12 form-group" id="acceptForm">
                 <input type="checkbox" id="accept" name="accept">
-                <label id="label" for="accept">En répondant à ce questionnaire j'accepte que les données insérées soient enregistrés et étudiés afin d’améliorer l’attractivité du territoire</label>
+                <label id="label" for="accept">En répondant à ce questionnaire j'accepte que les données insérées soient enregistrées et étudiées afin d’améliorer l’attractivité du territoire</label>
               </form>
             </div>
           </div>

@@ -176,10 +176,12 @@ ul{
 
 .questionTitleOrange{
   background-color: orange;
+  color: white;
 }
 
 .questionTitlePurple{
   background-color: #833089;
+  color: white;
 }
 
 .labelTitle{
@@ -197,4 +199,10 @@ ul{
 
 label{
   font-family: 'Raleway';
+}
+
+@media screen and (max-width: 690px) {
+  .btn-link{
+    font-size: 20px;
+  }
 }
