@@ -111,7 +111,7 @@ h1{
   background-color: #f59c23;
   margin-top: 200px;
 }
-#theme1{
+#theme1, #theme2{
   margin-top: -100px;
 }
 
@@ -161,11 +161,16 @@ h1{
 
 .caption h2{
   font-size: 20px;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: -15px;
 }
 
 .caption p{
   text-decoration: underline;
   margin-top: 20px;
+  font-weight: bold;
 }
 
 .firstPlace{
@@ -224,24 +229,19 @@ h1{
     font-size: 15px;
   }
 }
-
+@media screen and (min-width: 992px) and (max-width: 1160px) {
+#theme2{
+  margin-top: -100px;
+  width:150px;
+}
+.link{
+  margin: 0;
+}
+}
 @media screen and (max-width: 770px) {
   .firstPlace{
     margin-left: 0vw;
   }
-
-  @media screen and (max-width: 580px) {
-    #line2{
-      margin-top: 400px;
-    }
-    }
-
-    @media screen and (max-width: 400px) {
-      #line2, #line3{
-        margin-top: 20vh;
-      }
-      }
-
   .caption{
     width: 100%;
     height: 150px;
@@ -261,7 +261,7 @@ h1{
     background-color: transparent;
     margin-top: 200px;
   }
-  #theme1{
+  #theme1, #theme2{
     margin-bottom: 100px;
   }
   h1{
@@ -269,14 +269,35 @@ h1{
       line-height: 45px;
   }
 }
+  @media screen and (max-width: 580px) {
+    #line2{
+      margin-top: 400px;
+    }
+    }
+
+    @media screen and (max-width: 400px) {
+      #line2, #line3{
+        margin-top: 20vh;
+      }
+      }
+
+
+
 
 .modal-content{
   border-radius: 0px;
   background-color: #B5A6B6;
-  color: white;
-  font-family: 'Raleway'
+  color: black;
+  font-family: 'Raleway';
+  font-weight: bold;
+  font-size: 25px;
 }
 
-.modal-header h5{
-  font-family: 'LemonMilk'
+.modal-title{
+  font-family: 'LemonMilk';
+  text-align: center;
+  margin: auto;
+}
+.close{
+  margin: 0;
 }
