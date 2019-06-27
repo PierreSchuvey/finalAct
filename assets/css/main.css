@@ -42,7 +42,7 @@ li{color : white;}
 #logo{
   display: block;
   margin: auto;
-    margin-top: 80px;
+    margin-top: 30px;
 }
 #bands{
   background-color: rgba(245,156,35,0.5);
@@ -51,8 +51,8 @@ li{color : white;}
 }
 .titleNight{
   font-size:50px;
-  line-height: 80px;
-  margin-top:40px;
+  line-height: 50px;
+  margin-top:20px;
   font-family: "Lemon";
   color:#7F3089;
   text-align: center;
@@ -113,6 +113,12 @@ hr{
 }
 .firstSection p{
   font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.firstSection ul li{
+
+  font-weight: bold;
 }
 .secondSection{
   min-height:100vh;

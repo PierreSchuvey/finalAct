@@ -14,6 +14,7 @@
   <link href="assets/css/atelier.css" rel="stylesheet" />
   <link href="assets/css/mediaAtelier.css" rel="stylesheet" />
   <link href="assets/css/footer.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
 <body>
@@ -158,7 +159,7 @@
               <div id="parallelogramPurR" style="border-right:solid 20px orange">
                 <div class="row textAtelier">
                   <div class="col-12">
-                    <p class="atelier">La place du <br />campus Inovia </p>
+                    <p class="atelier">Nouvelle impulsion<br /> dans la reconversion<br /> du site Inovia</p>
                   </div>
                 </div>
                 <div class="row textAtelier">
@@ -248,6 +249,17 @@ du Canal Seine Nord Europe.</p>
               <div id="imageRight">
               </div>
           </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 bandBot">
+          <p>
+            L'offre d'accueil des entreprises sera abordée lors des clubs entreprises du noyonnais.
+          </p>
+          <p>
+            L'économie de proximité sera abordé via le questionnaire en ligne et l'étude SEMAEST.
+          </p>
         </div>
       </div>
     </div>

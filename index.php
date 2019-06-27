@@ -12,7 +12,7 @@
   <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
   <link href="assets/css/animate.css" rel="stylesheet" type="text/css" />
   <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -27,14 +27,14 @@
             <div class="col-sm-12 col-md-6 col-xl-6 firtsPart">
               <div class="row">
                 <div class="col-12">
-                  <img id="logo" src="assets/images/logoTransV2.png">
+                  <img id="logo" src="assets/images/logo.jpg">
                 </div>
               </div>
               <div class="row">
                 <div id="bands" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                   <div class="row">
                     <div class="col-xl-12">
-                      <p class="titleNight">Les assises du Noyonnais</p>
+                      <p class="titleNight">Les assises de l'économie et de l'emploi du pays Noyonnais</p>
                     </div>
                   </div>
                   <div class="row">

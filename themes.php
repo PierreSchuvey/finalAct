@@ -65,7 +65,7 @@
             <div class="col-8 offset-2 col-sm-5 offset-sm-4 col-md-4 offset-md-0 col-lg-4 offset-lg-0 col-xl-3 offset-xl-2" id="theme2">
               <div  class="ratio img-responsive img-circle" style="background-image: url('assets/images/csne.jpg');" data-toggle="modal" data-target="#exampleModal">
                 <div class="caption">
-                  <h2>CSNE</h2>
+                  <h2>Comment anticiper le grand chantier du projet CSNE</h2>
                   <p>
                     En savoir plus
                   </p>
@@ -76,7 +76,7 @@
                 <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">CSNE : Optimisation des retombées du projet (activité économique et emploi)</h5>
+                      <h5 class="modal-title" id="exampleModalLabel">Comment anticiper le grand chantier du projet CSNE</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -273,7 +273,7 @@ complémentaires.
             <div class="col-8 col-sm-5 offset-sm-4 col-md-4 col-lg-4 col-xl-3  offset-2 offset-md-0" id="theme1">
               <div  class="ratio img-responsive img-circle" style="background-image: url('assets/images/inovia.jpg');" data-toggle="modal" data-target="#Modal8">
                 <div class="caption">
-                  <h2>La poursuite de la reconversion du site Inovia</h2>
+                  <h2>Nouvelle impulsion dans la reconversion du site Inovia</h2>
                   <p>
                     En savoir plus
                   </p>
@@ -284,7 +284,7 @@ complémentaires.
                 <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">La poursuite de la reconversion du site Inovia</h5>
+                      <h5 class="modal-title" id="exampleModalLabel">Nouvelle impulsion dans la reconversion du site Inovia</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>

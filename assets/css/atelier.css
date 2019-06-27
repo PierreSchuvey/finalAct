@@ -279,3 +279,16 @@ margin-left: 20px;
   word-break: break-word;
   font-size: 15px;
 }
+
+.bandBot{
+  background-color: #833089;
+  text-align: center;
+  font-family: 'LemonMilk';
+  color: white;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.bandBot p{
+  font-size: 23px;
+}
