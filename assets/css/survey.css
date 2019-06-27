@@ -247,7 +247,6 @@ textarea{
     transition: all 0.8s ease-out;
 }
 .btn-link:hover{
-  font-size: 35px;
   color: #F59C23;
   font-family: 'LemonMilk';
 }
@@ -266,4 +265,21 @@ textarea{
 }
 .thxSurvey{
   margin-top: 15vh;
+}
+
+@media screen and (min-width: 495px) and (max-width: 690px) {
+  .btn-link{
+    font-size: 20px;
+  }
+}
+
+
+@media screen and (max-width: 494px) {
+  .btn-link{
+    font-size: 13px;
+  }
+
+  .btn-link small{
+    font-size: 10px;
+  }
 }

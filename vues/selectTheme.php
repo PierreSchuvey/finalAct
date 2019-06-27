@@ -27,7 +27,7 @@
 </div>
 <form class="" action="#" method="post">
   <div class="questionLabel right">
-    <h3 class="questionTitlePurple">Vous résidez :</h3>
+    <h3 class="questionTitlePurple">Classez les thèmes suivants selon votre ordre d'intêret :</h3>
     <?php foreach($allThemes as $allThemes) {?>
       <div class="question">
       <label for="noyon" class="labelTitle"><?= $allThemes->name ?> </label><br>
