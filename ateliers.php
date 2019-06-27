@@ -54,106 +54,7 @@
         <div class="col-12">
           <h1>Ateliers des assises de l'économie et<br> de l'emploi du noyonnais</h1>
         </div>
-      </div>      <div class="row atelierLine">
-              <div class="col-xs-12 col-lg-6 ">
-                <div class="atelierCard" style="background-image:url('assets/images/entreprise.jpg')">
-                    <div id="parallelogramPurR">
-                      <div class="row textAtelier">
-                        <div class="col-12">
-                          <p class="atelier">L’offre d’accueil des entreprises</p>
-                        </div>
-                      </div>
-                      <div class="row textAtelier">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                          <p class=""><span class="date">Mardi 2 juillet</span><br />Cette thématique portera sur l’optimisation du parcours résidentiel des entreprises,
-l’environnement de travail et l’attractivité du territoire.</p>
-                        </div>
-                      </div>
-                      <div class="row linkSubscribeLine">
-                        <div class="col-12 linkSubscribe">
-                          <a href="#" target="_blank" class="">Inscrivez-vous</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="imageRight">
-                    </div>
-                </div>
-              </div>
-              <div class="col-xs-12 col-lg-6 ">
-                <div class="atelierCard" style="background-image:url('assets/images/entreprise.jpg')">
-                    <div id="parallelogramOrL">
-                      <div class="row textAtelierR">
-                        <div class="col-12">
-                          <p class="atelierR">L’offre d’accueil des entreprises</p>
-                        </div>
-                      </div>
-                      <div class="row textAtelierR">
-                        <div class="col-10">
-                          <p class=""><span class="date">Jeudi 5 juillet</span><br />Cette thématique portera sur l’optimisation du parcours résidentiel des entreprises,
-l’environnement de travail et l’attractivité du territoire.</p>
-                        </div>
-                      </div>
-                      <div class="row linkSubscribeLine">
-                        <div class="col-12 linkSubscribeR">
-                          <a href="#" target="_blank" class="">Inscrivez-vous</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="imageRight">
-                    </div>
-                </div>
-              </div>
-            </div>
-            <div class="row atelierLine">
-              <div class="col-xs-12 col-lg-6 ">
-                <div class="atelierCard" style="background-image:url('assets/images/entreprise.jpg')">
-                    <div id="parallelogramPurR">
-                      <div class="row textAtelier">
-                        <div class="col-12">
-                          <p class="atelier">L’offre d’accueil des entreprises</p>
-                        </div>
-                      </div>
-                      <div class="row textAtelier">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
-                          <p class=""><span class="date">Lundi 9 septembre</span><br />Cette thématique portera sur l’optimisation du parcours résidentiel des entreprises,
-l’environnement de travail et l’attractivité du territoire.</p>
-                        </div>
-                      </div>
-                      <div class="row linkSubscribeLine">
-                        <div class="col-12 linkSubscribe">
-                          <a href="#" target="_blank" class="">Inscrivez-vous</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="imageRight">
-                    </div>
-                </div>
-              </div>
-              <div class="col-xs-12 col-lg-6 ">
-                <div class="atelierCard" style="background-image:url('assets/images/entreprise.jpg')">
-                    <div id="parallelogramOrL">
-                      <div class="row textAtelierR">
-                        <div class="col-12">
-                          <p class="atelierR">L’offre d’accueil des entreprises</p>
-                        </div>
-                      </div>
-                      <div class="row textAtelierR">
-                        <div class="col-10">
-                          <p class=""><span class="date">Mercredi 11 septembre</span><br />Cette thématique portera sur l’optimisation du parcours résidentiel des entreprises,
-l’environnement de travail et l’attractivité du territoire.</p>
-                        </div>
-                      </div>
-                      <div class="row linkSubscribeLine">
-                        <div class="col-12 linkSubscribeR">
-                          <a href="#" target="_blank" class="">Inscrivez-vous</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="imageRight">
-                    </div>
-                </div>
-              </div>
-            </div>
+      </div>
             <div class="row atelierLine">
               <div class="col-xs-12 col-lg-6 ">
                 <div class="atelierCard" style="background-image:url('assets/images/formation.jpg')">
@@ -164,7 +65,7 @@ l’environnement de travail et l’attractivité du territoire.</p>
                         </div>
                       </div>
                       <div class="row textAtelier">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-9">
                           <p class=""><span class="date">Mercredi 3 juillet</span><br />Cet atelier portera sur les besoins en main d’œuvre et en formation du territoire mais
 également sur la coordination des acteurs de l’emploi.</p>
                         </div>
@@ -188,7 +89,7 @@ l’environnement de travail et l’attractivité du territoire.</p>
                         </div>
                       </div>
                       <div class="row textAtelierR">
-                        <div class="col-10">
+                        <div class="col-9">
                           <p class=""><span class="date">Mercredi 11 septembre</span><br />Cet atelier portera sur les besoins en main d’œuvre et en formation du territoire mais également sur la coordination des acteurs de l’emploi.</p>
                         </div>
                       </div>
@@ -213,7 +114,7 @@ l’environnement de travail et l’attractivité du territoire.</p>
                   </div>
                 </div>
                 <div class="row textAtelier">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-9">
                     <p class=""><span class="date">Mardi 17 septembre</span><br />Cet atelier sera consacré aux filières et secteurs porteurs.</p>
                   </div>
                 </div>
@@ -236,7 +137,7 @@ l’environnement de travail et l’attractivité du territoire.</p>
                   </div>
                 </div>
                 <div class="row textAtelierR">
-                  <div class="col-10">
+                  <div class="col-9">
                     <p class=""><span class="date">Mardi 10 septembre</span><br />Cet atelier permettra d’évaluer les freins et les besoins du territoire en terme de mobilité.</p>
                   </div>
                 </div>
@@ -257,11 +158,11 @@ l’environnement de travail et l’attractivité du territoire.</p>
               <div id="parallelogramPurR" style="border-right:solid 20px orange">
                 <div class="row textAtelier">
                   <div class="col-12">
-                    <p class="atelier">La place du campus Inovia dans<br /> le développement économique<br /> du territoire :</p>
+                    <p class="atelier">La place du <br />campus Inovia </p>
                   </div>
                 </div>
                 <div class="row textAtelier">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-9">
                     <p class=""><span class="date">Jeudi 4 juillet</span><br />Cet atelier portera sur le travail à mener autour de la visibilité du campus économique Inovia
 ainsi que sur les services associés au lieu.</p>
                   </div>
@@ -285,7 +186,7 @@ ainsi que sur les services associés au lieu.</p>
                   </div>
                 </div>
                 <div class="row textAtelierR">
-                  <div class="col-10">
+                  <div class="col-9">
                     <p class=""><span class="date">Lundi 9 septembre</span><br />Cet atelier sera dédié au développement et à l’attractivité du maker space.</p>
                   </div>
                 </div>
@@ -310,7 +211,7 @@ ainsi que sur les services associés au lieu.</p>
                   </div>
                 </div>
                 <div class="row textAtelier">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-9">
                     <p class=""><span class="date">Mardi 17 septembre</span><br />Cet atelier portera sur le développement des services auprès des administrés.</p>
                   </div>
                 </div>
@@ -329,7 +230,7 @@ ainsi que sur les services associés au lieu.</p>
               <div id="parallelogramOrL">
                 <div class="row textAtelierR">
                   <div class="col-12">
-                    <p class="atelierR">Comment anticiper<br /> le grand chantier du projet CSNE</p>
+                    <p class="atelierR">Comment anticiper<br /> le grand chantier <br />du projet CSNE</p>
                   </div>
                 </div>
                 <div class="row textAtelierR">
