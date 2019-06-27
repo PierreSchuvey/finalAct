@@ -215,3 +215,16 @@ textarea{
 .btn-link:hover>small{
   text-decoration: none;
 }
+#question .thxSurvey p{
+  color:white;
+  text-align: center;
+  font-size: 30px;
+}
+#question .thxSurvey a{
+  color:#833089;
+  text-align: center;
+  margin: 0;
+}
+.thxSurvey{
+  margin-top: 15vh;
+}

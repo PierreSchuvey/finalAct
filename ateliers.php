@@ -31,11 +31,9 @@
         <li class="nav-item">
           <a class="nav-link" href="themes.php">Thématiques</a>
         </li>
-
         <li class="nav-item active">
           <a class="nav-link" href="ateliers.php">Ateliers</a>
         </li>
-
         <li class="nav-item">
           <a class="nav-link" href="question.php">Questionnaire</a>
         </li>
